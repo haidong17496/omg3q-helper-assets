@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "binh_phu": [
+    { "id": 1, "name": "Võ Đương Phi Quân", "quality": "kim", "slug": "vo_duong_phi_quan" },
+    { "id": 2, "name": "Tiên Đăng Tử Sĩ", "quality": "kim", "slug": "tien_dang_tu_si" },
+    { "id": 3, "name": "Giao Ngạc Bưu Quân", "quality": "kim", "slug": "giao_ngac_buu_quan" },
+    { "id": 4, "name": "Nguyên Nhung Tinh Nỏ", "quality": "kim", "slug": "nguyen_nhung_tinh_no" },
+    { "id": 5, "name": "Cuồng Sư Hãn Tướng", "quality": "kim", "slug": "cuong_su_han_tuong" },
+    { "id": 6, "name": "Chiến Ưng Phi Tướng", "quality": "am_kim", "slug": "chien_ung_phi_tuong" },
+    { "id": 7, "name": "Tần Dương Hổ Phù", "quality": "am_kim", "slug": "tan_duong_ho_phu" },
+    { "id": 8, "name": "Phủ Kỵ Nha Chương", "quality": "am_kim", "slug": "phu_ky_nha_chuong" },
+    { "id": 9, "name": "Khiên Kỳ Thú Kỵ", "quality": "am_kim", "slug": "khien_ky_thu_ky" },
+    { "id": 10, "name": "Hoàng Ngọc Long Phù", "quality": "tu_kim", "slug": "hoang_ngoc_long_phu" },
+    { "id": 11, "name": "Tân Thê Ngư Phù", "quality": "tu_kim", "slug": "tan_the_ngu_phu" },
+    { "id": 12, "name": "Phi Điểu Vũ Hịch", "quality": "tu_kim", "slug": "phi_dieu_vu_hich" },
+    { "id": 13, "name": "Thác Kim Chiếu Mệnh", "quality": "tu_kim", "slug": "thac_kim_chieu_menh" },
+    { "id": 14, "name": "Kim Lân Thánh Phù", "quality": "thai_kim", "slug": "kim_lan_thanh_phu" },
+    { "id": 15, "name": "Huyền Ngọc Hổ Giác", "quality": "thai_kim", "slug": "huyen_ngoc_ho_giac" }
+  ]
+}
