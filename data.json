@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "binh_phu": [
     { "id": 1, "name": "Võ Đương Phi Quân", "quality": "kim", "slug": "vo_duong_phi_quan" },
     { "id": 2, "name": "Tiên Đăng Tử Sĩ", "quality": "kim", "slug": "tien_dang_tu_si" },
@@ -33,5 +33,23 @@
     { "id": 13, "name": "Vệ Công Binh Pháp", "quality": "tu_kim", "slug": "ve_cong_binh_phap" },
     { "id": 14, "name": "Luyện Binh Thực Ký", "quality": "thai_kim", "slug": "luyen_binh_thuc_ky" },
     { "id": 15, "name": "Ngô Tử Binh Pháp", "quality": "thai_kim", "slug": "ngo_tu_binh_phap" }
+  ],
+  "hon_thach": [
+    { "id": 1, "name": "Quan Bình", "quality": "tim", "slug": "quan_binh" },
+    { "id": 2, "name": "Lăng Thống", "quality": "tim", "slug": "lang_thong" },
+    { "id": 3, "name": "Quách Gia", "quality": "cam", "slug": "quach_gia" },
+    { "id": 4, "name": "Quan Vũ", "quality": "cam", "slug": "quan_vu" },
+    { "id": 5, "name": "Vu Cát", "quality": "do", "slug": "vu_cat" },
+    { "id": 6, "name": "Nam Hoa", "quality": "do", "slug": "nam_hoa" },
+    { "id": 7, "name": "Giả Hủ", "quality": "do", "slug": "gia_hu" },
+    { "id": 8, "name": "Văn Ương", "quality": "do", "slug": "van_uong" },
+    { "id": 9, "name": "Tôn Sách", "quality": "do", "slug": "ton_sach" },
+    { "id": 10, "name": "Chu Du", "quality": "do", "slug": "chu_du" },
+    { "id": 11, "name": "Gia Cát Lượng", "quality": "do", "slug": "gia_cat_luong" },
+    { "id": 12, "name": "Tư Mã Ý", "quality": "do", "slug": "tu_ma_y" },
+    { "id": 13, "name": "Lữ Bố", "quality": "do", "slug": "lu_bo" },
+    { "id": 14, "name": "Lữ Linh Khởi", "quality": "do", "slug": "lu_linh_khoi" },
+    { "id": 15, "name": "Bàng Đức", "quality": "do", "slug": "bang_duc" },
+    { "id": 16, "name": "Thủy Kính", "quality": "do", "slug": "thuy_kinh" }
   ]
 }
