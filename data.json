@@ -88,7 +88,7 @@
   "thien_phu_trang_bi": [
     {
       "id": "thai_kim_atk",
-      "name": "THÁI KIM - TẤN CÔNG",
+      "name": "TẤN CÔNG",
       "quality": "thai_kim",
       "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/trang_bi/thai_kim_1.png",
       "layout_id": "common_tree_v1",
@@ -114,7 +114,7 @@
     },
     {
       "id": "thai_kim_def",
-      "name": "THÁI KIM - PHÒNG THỦ",
+      "name": "PHÒNG THỦ",
       "quality": "thai_kim",
       "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/trang_bi/thai_kim_2.png",
       "layout_id": "common_tree_v1",
@@ -140,7 +140,7 @@
     },
     {
       "id": "thai_kim_sup",
-      "name": "THÁI KIM - THƯỜNG",
+      "name": "THƯỜNG",
       "quality": "thai_kim",
       "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/trang_bi/thai_kim_3.png",
       "layout_id": "common_tree_v1",
@@ -166,7 +166,7 @@
     },
     {
       "id": "ban_kim_atk",
-      "name": "BÀN KIM - TẤN CÔNG",
+      "name": "TẤN CÔNG",
       "quality": "ban_kim",
       "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/trang_bi/ban_kim_1.png",
       "layout_id": "common_tree_v1",
@@ -192,7 +192,7 @@
     },
     {
       "id": "ban_kim_def",
-      "name": "BÀN KIM - PHÒNG THỦ",
+      "name": "PHÒNG THỦ",
       "quality": "ban_kim",
       "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/trang_bi/ban_kim_2.png",
       "layout_id": "common_tree_v1",
@@ -218,7 +218,7 @@
     },
     {
       "id": "ban_kim_sup",
-      "name": "BÀN KIM - THƯỜNG",
+      "name": "THƯỜNG",
       "quality": "ban_kim",
       "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/trang_bi/ban_kim_3.png",
       "layout_id": "common_tree_v1",
