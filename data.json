@@ -13,7 +13,7 @@
     { "id": 10, "name": "Hoàng Ngọc Long Phù", "quality": "tu_kim", "slug": "hoang_ngoc_long_phu" },
     { "id": 11, "name": "Tân Thê Ngư Phù", "quality": "tu_kim", "slug": "tan_the_ngu_phu" },
     { "id": 12, "name": "Phi Điểu Vũ Hịch", "quality": "tu_kim", "slug": "phi_dieu_vu_hich" },
-    { "id": 13, "name": "Thác Kim Chiếu Mệnh", "quality": "tu_kim", "slug": "thac_kim_chieu_menh" },
+    { "id": 13, "name": "Thác Kim Chiếu Lệnh", "quality": "tu_kim", "slug": "thac_kim_chieu_lenh" },
     { "id": 14, "name": "Kim Lân Thánh Phù", "quality": "thai_kim", "slug": "kim_lan_thanh_phu" },
     { "id": 15, "name": "Huyền Ngọc Hổ Giác", "quality": "thai_kim", "slug": "huyen_ngoc_ho_giac" }
   ],
