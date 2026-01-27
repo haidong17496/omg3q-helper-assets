@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "binh_phu": [
     { "id": 1, "name": "Võ Đương Phi Quân", "quality": "kim", "slug": "vo_duong_phi_quan" },
     { "id": 2, "name": "Tiên Đăng Tử Sĩ", "quality": "kim", "slug": "tien_dang_tu_si" },
@@ -245,8 +245,44 @@
   ],
   "thien_phu_trang_suc": [
     {
+      "id": "ts_tu_kim_horse",
+      "name": "NGỰA",
+      "quality": "tu_kim",
+      "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/trang_suc/tu_kim_1.png",
+      "layout_id": "tu_kim_tree_v1",
+      "content": [
+        { "name": "Thị Huyết 1", "desc": "Sát thương tăng 4%, tấn công toàn bộ +24.000." },
+        { "name": "Thị Huyết 2", "desc": "Sát thương tăng 4%, phòng thủ toàn bộ +48.000." },
+        { "name": "Thị Huyết 3", "desc": "Sau khi đánh thường, tăng 1 lần sát thương bằng 75% tấn công, HP mục tiêu càng thấp sát thương càng cao, tối đa có thể tăng đến 40%. HP toàn bộ +720.000, mở liên kết trang sức tử kim." },
+        { "name": "Ngạo Cốt 1", "desc": "Miễn thương tăng 4%, phòng thủ toàn bộ +24.000." },
+        { "name": "Ngạo Cốt 2", "desc": "Miễn thương tăng 4%, tấn công toàn bộ +48.000." },
+        { "name": "Ngạo Cốt 3", "desc": "Sau khi bị đánh thường, phản đòn 1 kẻ địch sát thương bằng 50% tấn công bản thân, HP địch càng cao, sát thương càng cao, tối đa có thể tăng 40%. HP toàn bộ +720.000, mở liên kết trang sức tử kim." },
+        { "name": "Phong Hồn 1", "desc": "Sát thương tăng 2%, miễn sát thương tăng 2%, phòng thủ toàn bộ +24.000." },
+        { "name": "Phong Hồn 2", "desc": "Sát thương tăng 2%, miễn sát thương tăng 2%, HP toàn bộ +480.000." },
+        { "name": "Phong Hồn 3", "desc": "Sau khi đánh thường, giảm của 1 kẻ địch 25 điểm nộ, đồng thời giảm 18% sát thương, duy trì 1 hiệp. Tấn công toàn bộ +72.000, mở liên kết trang sức tử kim." }
+      ]
+    },
+    {
+      "id": "ts_tu_kim_seal",
+      "name": "ẤN",
+      "quality": "tu_kim",
+      "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/trang_suc/tu_kim_2.png",
+      "layout_id": "tu_kim_tree_v1",
+      "content": [
+        { "name": "Bất Hủ 1", "desc": "Sát thương tăng 4%, tấn công toàn bộ +24.000." },
+        { "name": "Bất Hủ 2", "desc": "Sát thương tăng 4%, phòng thủ toàn bộ +48.000." },
+        { "name": "Bất Hủ 3", "desc": "Mỗi hiệp kết thúc, hồi HP bằng 80% tấn công bản thân. HP toàn bộ +720.000, mở liên kết trang sức tử kim." },
+        { "name": "Kim Thân 1", "desc": "Miễn thương tăng 4%, phòng thủ toàn bộ +24.000." },
+        { "name": "Kim Thân 2", "desc": "Miễn thương tăng 4%, tấn công toàn bộ +48.000." },
+        { "name": "Kim Thân 3", "desc": "2 hiệp đầu, miễn sát thương tăng 45%. HP toàn bộ +720.000, mở liên kết trang sức tử kim." },
+        { "name": "Ngao Chiến 1", "desc": "Sát thương tăng 2%, miễn sát thương tăng 2%, phòng thủ toàn bộ +24.000." },
+        { "name": "Ngao Chiến 2", "desc": "Sát thương tăng 2%, miễn sát thương tăng 2%, HP toàn bộ +480.000." },
+        { "name": "Ngao Chiến 3", "desc": "Hiệp đầu ra trận, miễn sát thương tất cả đồng đội tăng 18%, duy trì 1 hiệp được cộng dồn, tối đa cộng dồn 3 tầng. Tấn công toàn bộ +72.000, mở liên kết trang sức tử kim." }
+      ]
+    },
+    {
       "id": "ts_thai_kim_atk",
-      "name": "THÁI KIM - TẤN CÔNG",
+      "name": "TẤN CÔNG",
       "quality": "thai_kim",
       "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/trang_suc/thai_kim_1.png",
       "layout_id": "common_tree_v1",
@@ -272,7 +308,7 @@
     },
     {
       "id": "ts_thai_kim_def",
-      "name": "THÁI KIM - PHÒNG THỦ",
+      "name": "PHÒNG THỦ",
       "quality": "thai_kim",
       "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/trang_suc/thai_kim_2.png",
       "layout_id": "common_tree_v1",
@@ -298,7 +334,7 @@
     },
     {
       "id": "ts_thai_kim_sup",
-      "name": "THÁI KIM - THƯỜNG",
+      "name": "THƯỜNG",
       "quality": "thai_kim",
       "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/trang_suc/thai_kim_3.png",
       "layout_id": "common_tree_v1",
@@ -324,7 +360,7 @@
     },
     {
       "id": "ts_ban_kim_atk",
-      "name": "BÀN KIM - TẤN CÔNG",
+      "name": "TẤN CÔNG",
       "quality": "ban_kim",
       "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/trang_suc/ban_kim_1.png",
       "layout_id": "common_tree_v1",
@@ -350,7 +386,7 @@
     },
     {
       "id": "ts_ban_kim_def",
-      "name": "BÀN KIM - PHÒNG THỦ",
+      "name": "PHÒNG THỦ",
       "quality": "ban_kim",
       "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/trang_suc/ban_kim_2.png",
       "layout_id": "common_tree_v1",
@@ -376,7 +412,7 @@
     },
     {
       "id": "ts_ban_kim_sup",
-      "name": "BÀN KIM - THƯỜNG",
+      "name": "THƯỜNG",
       "quality": "ban_kim",
       "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/trang_suc/ban_kim_3.png",
       "layout_id": "common_tree_v1",
