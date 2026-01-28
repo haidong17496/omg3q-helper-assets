@@ -425,7 +425,7 @@
         { "name": "Cường Hóa Phòng Thủ Nhóm", "desc": "Tỉ lệ phòng thủ toàn đội tăng 1% => 5%." },
         { "name": "Cường Hóa HP Nhóm", "desc": "Tỉ lệ HP toàn đội tăng 1% => 5%." },
         { "name": "Tiềm Năng", "desc": "Khi bắt đầu chiến đấu, tăng phá và kháng toàn bộ các loại tướng 15%, duy trì 2 hiệp." },
-        { "name": "Linh Tức", "desc": "Khi bắt đầu chiến đấu, tăng phá và kháng toàn bộ các loại tướng 7.5%, duy trì 2 hiệp." },
+        { "name": "Linh Tức", "desc": "Khi bắt đầu chiến đấu, tăng phá và kháng toàn bộ các loại tướng 7.5%, duy trì đến khi kết thúc chiến đấu." },
         { "name": "Đánh Thường Tăng ST", "desc": "Tăng sát thương công thường 1% => 5%." },
         { "name": "Đánh Thường Giảm ST", "desc": "Giảm sát thương công thường 1% => 5%." },
         { "name": "Nộ Công Tăng ST", "desc": "Tăng sát thương nộ 1% => 5%." },
