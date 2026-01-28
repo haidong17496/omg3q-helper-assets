@@ -733,7 +733,7 @@
         { "name": "Cường Hóa Tấn Công", "desc": "Tỉ lệ tấn công tăng 1% => 5%." },
         { "name": "Cường Hóa Phòng Thủ", "desc": "Tỉ lệ phòng thủ tăng 1% => 5%." },
         { "name": "Cường Hóa HP", "desc": "Tỉ lệ HP tăng 1% => 5%." },
-        { "name": "Thần Binh Khí Khí", "desc": "Đánh thường tăng 15 điểm nộ." },
+        { "name": "Thần Binh Chí Khí", "desc": "Đánh thường tăng 15 điểm nộ." },
         { "name": "Cường Hóa Đánh Nhóm", "desc": "Tỉ lệ tấn công toàn đội tăng 1% => 5%." },
         { "name": "Cường Hóa Phòng Thủ Nhóm", "desc": "Tỉ lệ phòng thủ toàn đội tăng 1% => 5%." },
         { "name": "Cường Hóa HP Nhóm", "desc": "Tỉ lệ HP toàn đội tăng 1% => 5%." },
