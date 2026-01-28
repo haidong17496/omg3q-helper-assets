@@ -826,8 +826,6 @@
     }
   ],
   "cam_nang": [
-    { "slug": "cam_nang_a", "name": "Cẩm Nang A (Ví dụ cũ)", "quality": "do" },
-    
     {
       "name": "TỬ KIM",
       "quality": "tu_kim",
