@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "binh_phu": [
     { "id": 1, "name": "Võ Đương Phi Quân", "quality": "kim", "slug": "vo_duong_phi_quan" },
     { "id": 2, "name": "Tiên Đăng Tử Sĩ", "quality": "kim", "slug": "tien_dang_tu_si" },
@@ -53,6 +53,56 @@
     { "id": 16, "name": "Thủy Kính", "quality": "do", "slug": "thuy_kinh" }
   ],
   "tuong": [
+    {
+      "name": "Chủ Tướng",
+      "slug": "main",
+      "country": "thien_phu",
+      "quality": "kim"
+    },
+    {
+      "name": "TP Thái Kim",
+      "slug": "tk_thai_kim",
+      "country": "thien_phu",
+      "quality": "thai_kim",
+      "layout_id": "general_tree_v1",
+      "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/tuong/talent/thai_kim.png",
+      "content": [
+        { "name": "Cường Hóa Tấn Công", "desc": "Tấn công tăng [300K, 600K, 900K, 1.2M, 1.5M]." },
+        { "name": "Cường Hóa Phòng Thủ", "desc": "Phòng thủ tăng [300K, 600K, 900K, 1.2M, 1.5M]." },
+        { "name": "Cường Hóa HP", "desc": "HP tăng [3M, 6M, 9M, 12M, 15M]." },
+        { "name": "Thành Tiên Đạo", "desc": "Nhận [10, 20, 30, 40, 50] điểm năng lượng Thái Kim." },
+        { "name": "Chiến Ý", "desc": "Đánh thường nhận [6, 12, 18, 24, 30] năng lượng Thái Kim." },
+        { "name": "Tiên Tư", "desc": "Bị đánh thường nhận [3, 6, 9, 12, 15] năng lượng Thái Kim." },
+        { "name": "Dũng Mãnh", "desc": "Tướng cứ nhận 10 NLTK sẽ tăng [0.5% - 2.5%] sát thương tuyệt đối, [2% - 10%] sát thương công thường, [2% - 10%] sát thương nộ." },
+        { "name": "Vô Úy", "desc": "Tướng cứ nhận 10 NLTK sẽ tăng [0.5% - 2.5%] miễn sát thương tuyệt đối, [2% - 10%] miễn thương công thường, [2% - 10%] miễn thương nộ." },
+        { "name": "Niết Bàn Khu", "desc": "Khi NLTK > 50, miễn dịch và xóa (Tê Liệt, Cấm Túc, Uy Hiếp, Phong Hồn, Hóa Đá, Khóa Nộ, Giam Cầm) 2 hiệp." },
+        { "name": "Băng Phong Khu", "desc": "Khi NLTK > 50, miễn dịch và xóa (Mê Hoặc, Viêm Bộc, Tiên Nộ, Hôn Mê, Khóa Kỹ Năng, Kỳ Môn) 2 hiệp." },
+        { "name": "Hỗn Độn Khu", "desc": "Khi NLTK > 50, miễn dịch và xóa (Hoảng Sợ, Vô Song, Phong Ấn, Đóng Băng, Băng Phong, Kinh Hồn, Cấm Trị Liệu) 2 hiệp." },
+        { "name": "Thành Tiên Đạo (II)", "desc": "Nhận [60, 70, 80, 90, 100] điểm năng lượng Thái Kim." }
+      ]
+    },
+    {
+      "name": "TP Bàn Kim",
+      "slug": "tk_ban_kim",
+      "country": "thien_phu",
+      "quality": "ban_kim",
+      "layout_id": "general_tree_v1",
+      "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/tuong/talent/ban_kim.png",
+      "content": [
+        { "name": "Chiến Ý Lẫm Nhiên", "desc": "Tấn công tăng [500K, 1M, 1.5M, 2M, 2.5M]." },
+        { "name": "Thiết Bích Ý Chí", "desc": "Phòng thủ tăng [500K, 1M, 1.5M, 2M, 2.5M]." },
+        { "name": "Sinh Tức", "desc": "HP tăng [5M, 10M, 15M, 20M, 25M]." },
+        { "name": "Phúc Tinh Cao Chiếu", "desc": "Tăng [10, 20, 30, 40, 50]% kháng nhân vật." },
+        { "name": "Diệu Kế", "desc": "Đánh thường nhận [5, 10, 15, 20, 25] năng lượng Thái Kim." },
+        { "name": "Kiên Nhẫn", "desc": "Bị đánh thường nhận [3, 6, 9, 12, 15] năng lượng Thái Kim." },
+        { "name": "Xảo Thủ", "desc": "Đánh thường giảm của mục tiêu [4, 8, 12, 16, 20] năng lượng Thái Kim." },
+        { "name": "Thần Công", "desc": "Bị đánh thường giảm của người tấn công [5, 10, 15, 20, 25] năng lượng Thái Kim." },
+        { "name": "Phá Địch Trận", "desc": "Tăng [2, 4, 6, 8, 10]% tấn công tuyệt đối." },
+        { "name": "Kiên Bích Trận", "desc": "Tăng [2, 4, 6, 8, 10]% phòng thủ tuyệt đối." },
+        { "name": "Cường Thể Trận", "desc": "Tăng [2, 4, 6, 8, 10]% HP tuyệt đối." },
+        { "name": "Lôi Đình Vạn Quân", "desc": "Tăng [10, 20, 30, 40, 50]% phá nhân vật." }
+      ]
+    },
     { "id": 1, "name": "Trương Liêu", "quality": "tu_kim", "slug": "truong_lieu", "country": "nguy" },
     { "id": 2, "name": "Tư Mã Ý", "quality": "tu_kim", "slug": "tu_ma_y", "country": "nguy" },
     { "id": 3, "name": "Tuân Úc", "quality": "tu_kim", "slug": "tuan_uc", "country": "nguy" },
