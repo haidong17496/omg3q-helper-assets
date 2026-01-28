@@ -824,5 +824,176 @@
         { "name": "Chấn Nộ Cuồng Hống", "desc": "Sau khi nộ công, toàn bộ tướng địch giảm 40 điểm nộ, mỗi trận tối đa kích hoạt 2 lần." }
       ]
     }
+  ],
+  "cam_nang": [
+    { "slug": "cam_nang_a", "name": "Cẩm Nang A (Ví dụ cũ)", "quality": "do" },
+    
+    {
+      "name": "TỬ KIM",
+      "quality": "tu_kim",
+      "layout_id": "tu_kim_tree_v1",
+      "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/cam_nang/tu_kim.png",
+      "content": [
+        { "name": "Xích Tâm 1", "desc": "Tăng sát thương đánh thường toàn bộ 10%, phòng thủ toàn bộ +36.000." },
+        { "name": "Xích Tâm 2", "desc": "Tăng sát thương nộ toàn bộ 10%, tấn công toàn bộ +70.000." },
+        { "name": "Xích Tâm 3", "desc": "Tùy vào thiên phú cẩm nang." },
+        { "name": "Giải Sách 1", "desc": "Tăng miễn sát thương đánh thường toàn bộ 10%, phòng thủ toàn bộ +36.000." },
+        { "name": "Giải Sách 2", "desc": "Tăng miễn sát thương nộ toàn bộ 10%, tấn công toàn bộ +70.000." },
+        { "name": "Giải Sách 3", "desc": "Tùy vào thiên phú cẩm nang." },
+        { "name": "Tung Hoành 1", "desc": "Tăng miễn sát thương đánh thường toàn bộ 10%, phòng thủ toàn bộ +36.000." },
+        { "name": "Tung Hoành 2", "desc": "Tăng sát thương nộ toàn bộ 10%, tấn công toàn bộ +70.000." },
+        { "name": "Tung Hoành 3", "desc": "Tùy vào thiên phú cẩm nang." }
+      ]
+    },
+    {
+      "name": "TẤN CÔNG",
+      "quality": "thai_kim",
+      "layout_id": "common_tree_v1",
+      "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/cam_nang/thai_kim_1.png",
+      "content": [
+        { "name": "Cường Hóa Tấn Công", "desc": "Tỉ lệ tấn công tăng 1% => 5%." },
+        { "name": "Cường Hóa Phòng Thủ", "desc": "Tỉ lệ phòng thủ tăng 1% => 5%." },
+        { "name": "Cường Hóa HP", "desc": "Tỉ lệ HP tăng 1% => 5%." },
+        { "name": "Sức Mạnh Cẩm Nang", "desc": "Tấn công tăng 15%." },
+        { "name": "Cường Hóa Đánh Nhóm", "desc": "Tỉ lệ tấn công toàn đội tăng 1% => 5%." },
+        { "name": "Cường Hóa Phòng Thủ Nhóm", "desc": "Tỉ lệ phòng thủ toàn đội tăng 1% => 5%." },
+        { "name": "Cường Hóa HP Nhóm", "desc": "Tỉ lệ HP toàn đội tăng 1% => 5%." },
+        { "name": "Sức Mạnh Trấn Tĩnh", "desc": "Sát thương đánh thường tăng 80%." },
+        { "name": "Sức Mạnh Cuồng Bạo", "desc": "Sát thương nộ công tăng 30%." },
+        { "name": "Đánh Thường Tăng ST", "desc": "Tăng sát thương công thường 1% => 5%." },
+        { "name": "Đánh Thường Giảm ST", "desc": "Giảm sát thương công thường 1% => 5%." },
+        { "name": "Nộ Công Tăng ST", "desc": "Tăng sát thương nộ 1% => 5%." },
+        { "name": "Nộ Công Giảm ST", "desc": "Miễn sát thương nộ 1% => 5%." },
+        { "name": "Long Trảo Ấn", "desc": "Sau khi đánh thường, sát thương bản thân tăng 80%, duy trì 1 hiệp." },
+        { "name": "Phượng Trảo Ấn", "desc": "Sau khi đánh thường, sát thương toàn đội tăng 20%, duy trì 1 hiệp." },
+        { "name": "Long Thủ Ấn", "desc": "Sau khi nộ công, sát thương bản thân tăng 120%, duy trì 1 hiệp." },
+        { "name": "Phượng Thủ Ấn", "desc": "Sau khi nộ công, sát thương toàn đội tăng 30%, duy trì 1 hiệp." }
+      ]
+    },
+    {
+      "name": "PHÒNG THỦ",
+      "quality": "thai_kim",
+      "layout_id": "common_tree_v1",
+      "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/cam_nang/thai_kim_2.png",
+      "content": [
+        { "name": "Cường Hóa Tấn Công", "desc": "Tỉ lệ tấn công tăng 1% => 5%." },
+        { "name": "Cường Hóa Phòng Thủ", "desc": "Tỉ lệ phòng thủ tăng 1% => 5%." },
+        { "name": "Cường Hóa HP", "desc": "Tỉ lệ HP tăng 1% => 5%." },
+        { "name": "Cẩm Nang Chi Ngự", "desc": "HP tăng 15%." },
+        { "name": "Cường Hóa Đánh Nhóm", "desc": "Tỉ lệ tấn công toàn đội tăng 1% => 5%." },
+        { "name": "Cường Hóa Phòng Thủ Nhóm", "desc": "Tỉ lệ phòng thủ toàn đội tăng 1% => 5%." },
+        { "name": "Cường Hóa HP Nhóm", "desc": "Tỉ lệ HP toàn đội tăng 1% => 5%." },
+        { "name": "Trầm Trước Chi Ngự", "desc": "Miễn sát thương đánh thường tăng 80%." },
+        { "name": "Trấn Định Chi Ngự", "desc": "Miễn sát thương nộ công tăng 30%." },
+        { "name": "Đánh Thường Tăng ST", "desc": "Tăng sát thương công thường 1% => 5%." },
+        { "name": "Đánh Thường Giảm ST", "desc": "Giảm sát thương công thường 1% => 5%." },
+        { "name": "Nộ Công Tăng ST", "desc": "Tăng sát thương nộ 1% => 5%." },
+        { "name": "Nộ Công Giảm ST", "desc": "Miễn sát thương nộ 1% => 5%." },
+        { "name": "Địa Phương", "desc": "Sau khi đánh thường, miễn sát thương bản thân tăng 80%, duy trì 1 hiệp." },
+        { "name": "Thiên Viên", "desc": "Sau khi đánh thường, miễn sát thương toàn đội tăng 20%, duy trì 1 hiệp." },
+        { "name": "Ba Lan", "desc": "Sau khi nộ công, miễn sát thương bản thân tăng 120%, duy trì 1 hiệp." },
+        { "name": "Vòng Xoáy", "desc": "Sau khi nộ công, miễn sát thương toàn đội tăng 30%, duy trì 1 hiệp." }
+      ]
+    },
+    {
+      "name": "THƯỜNG",
+      "quality": "thai_kim",
+      "layout_id": "common_tree_v1",
+      "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/cam_nang/thai_kim_3.png",
+      "content": [
+        { "name": "Cường Hóa Tấn Công", "desc": "Tỉ lệ tấn công tăng 1% => 5%." },
+        { "name": "Cường Hóa Phòng Thủ", "desc": "Tỉ lệ phòng thủ tăng 1% => 5%." },
+        { "name": "Cường Hóa HP", "desc": "Tỉ lệ HP tăng 1% => 5%." },
+        { "name": "Cẩm Nang Chi Khí", "desc": "Đánh thường tăng 15 điểm nộ." },
+        { "name": "Cường Hóa Đánh Nhóm", "desc": "Tỉ lệ tấn công toàn đội tăng 1% => 5%." },
+        { "name": "Cường Hóa Phòng Thủ Nhóm", "desc": "Tỉ lệ phòng thủ toàn đội tăng 1% => 5%." },
+        { "name": "Cường Hóa HP Nhóm", "desc": "Tỉ lệ HP toàn đội tăng 1% => 5%." },
+        { "name": "Sinh Khí", "desc": "Tổng sát thương gây ra tăng 20%." },
+        { "name": "Tử Khí", "desc": "Tổng sát thương nhận phải giảm 20%." },
+        { "name": "Đánh Thường Tăng ST", "desc": "Tăng sát thương công thường 1% => 5%." },
+        { "name": "Đánh Thường Giảm ST", "desc": "Giảm sát thương công thường 1% => 5%." },
+        { "name": "Nộ Công Tăng ST", "desc": "Tăng sát thương nộ 1% => 5%." },
+        { "name": "Nộ Công Giảm ST", "desc": "Miễn sát thương nộ 1% => 5%." },
+        { "name": "Phồn Hoa Tự Cẩm", "desc": "Sau khi đánh thường, trừ 5% HP tối đa của 2 tướng có HP thấp nhất phe địch." },
+        { "name": "Thảo Mộc Khô Vinh", "desc": "Sau khi đánh thường, giúp 2 người có HP thấp nhất phe ta hồi 5% HP tối đa." },
+        { "name": "Hiểu Dụ Tân Sinh", "desc": "Khi tử vong, mỗi người trong đội sống sót nhận thêm 50 điểm nộ." },
+        { "name": "Phá Nhi Hậu Lập", "desc": "Khi tử vong, mỗi người trong đội sống sót tăng 40% sát thương và 40% miễn sát thương trong 1 hiệp." }
+      ]
+    },
+    {
+      "name": "TẤN CÔNG",
+      "quality": "ban_kim",
+      "layout_id": "common_tree_v1",
+      "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/cam_nang/ban_kim_1.png",
+      "content": [
+        { "name": "Cường Hóa Tấn Công", "desc": "Tỉ lệ tấn công tăng 1% => 5%." },
+        { "name": "Cường Hóa Phòng Thủ", "desc": "Tỉ lệ phòng thủ tăng 1% => 5%." },
+        { "name": "Cường Hóa HP", "desc": "Tỉ lệ HP tăng 1% => 5%." },
+        { "name": "Cẩm Nang Kỳ Mưu", "desc": "Tấn công tăng 20%." },
+        { "name": "Cường Hóa Đánh Nhóm", "desc": "Tỉ lệ tấn công toàn đội tăng 1% => 5%." },
+        { "name": "Cường Hóa Phòng Thủ Nhóm", "desc": "Tỉ lệ phòng thủ toàn đội tăng 1% => 5%." },
+        { "name": "Cường Hóa HP Nhóm", "desc": "Tỉ lệ HP toàn đội tăng 1% => 5%." },
+        { "name": "Lương Sách", "desc": "Khi bắt đầu chiến đấu, tăng phá Ngụy, Thục, Ngô, Quần Hùng, Danh Tướng, Chủ Tướng 30%, duy trì 2 hiệp." },
+        { "name": "Xảo Kế", "desc": "Khi bắt đầu chiến đấu, tăng phá Ngụy, Thục, Ngô, Quần Hùng, Danh Tướng, Chủ Tướng 15%, duy trì đến khi kết thúc chiến đấu." },
+        { "name": "Đánh Thường Tăng ST", "desc": "Tăng sát thương công thường 1% => 5%." },
+        { "name": "Đánh Thường Giảm ST", "desc": "Giảm sát thương công thường 1% => 5%." },
+        { "name": "Nộ Công Tăng ST", "desc": "Tăng sát thương nộ 1% => 5%." },
+        { "name": "Nộ Công Giảm ST", "desc": "Miễn sát thương nộ 1% => 5%." },
+        { "name": "Tuệ Nhãn", "desc": "Khi bắt đầu chiến đấu, khiến 1 tướng tấn công cao nhất của phe địch giảm 30% phòng thủ, duy trì 2 hiệp, mỗi tướng tối đa có thể giảm 1 lần." },
+        { "name": "Toái Kim", "desc": "2 hiệp đầu trận, khi đánh thường hoặc nộ công, toàn bộ phe địch giảm 10% miễn sát thương, duy trì đến khi kết thúc chiến đấu. Mỗi tướng phe địch tối đa giảm 50% miễn sát thương." },
+        { "name": "Tước Ngọc", "desc": "2 hiệp đầu trận, sau khi đánh thường hồi cho bản thân 40 điểm nộ, tăng sát thương nộ 150%, duy trì 1 hiệp." },
+        { "name": "Bí Kế Thâm Tàng", "desc": "Khi bắt đầu chiến đấu, toàn bộ tướng phe ta tăng 50% sát thương, duy trì đến khi kết thúc chiến đấu. Sau mỗi lần đánh thường hoặc nộ công, hiệu quả sát thương giảm 5% sát thương, hiệu quả sát thương của kỹ năng này tối đa giảm đến 25%." }
+      ]
+    },
+    {
+      "name": "PHÒNG THỦ",
+      "quality": "ban_kim",
+      "layout_id": "common_tree_v1",
+      "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/cam_nang/ban_kim_2.png",
+      "content": [
+        { "name": "Cường Hóa Tấn Công", "desc": "Tỉ lệ tấn công tăng 1% => 5%." },
+        { "name": "Cường Hóa Phòng Thủ", "desc": "Tỉ lệ phòng thủ tăng 1% => 5%." },
+        { "name": "Cường Hóa HP", "desc": "Tỉ lệ HP tăng 1% => 5%." },
+        { "name": "Cẩm Nang Hộ Thể", "desc": "HP tăng 20%." },
+        { "name": "Cường Hóa Đánh Nhóm", "desc": "Tỉ lệ tấn công toàn đội tăng 1% => 5%." },
+        { "name": "Cường Hóa Phòng Thủ Nhóm", "desc": "Tỉ lệ phòng thủ toàn đội tăng 1% => 5%." },
+        { "name": "Cường Hóa HP Nhóm", "desc": "Tỉ lệ HP toàn đội tăng 1% => 5%." },
+        { "name": "Lương Cơ", "desc": "Khi bắt đầu chiến đấu, tăng kháng Ngụy, Thục, Ngô, Quần Hùng, Danh Tướng, Chủ Tướng 30%, duy trì 2 hiệp." },
+        { "name": "Tuệ Khởi", "desc": "Khi bắt đầu chiến đấu, tăng kháng Ngụy, Thục, Ngô, Quần Hùng, Danh Tướng, Chủ Tướng 15%, duy trì đến khi kết thúc chiến đấu." },
+        { "name": "Đánh Thường Tăng ST", "desc": "Tăng sát thương công thường 1% => 5%." },
+        { "name": "Đánh Thường Giảm ST", "desc": "Giảm sát thương công thường 1% => 5%." },
+        { "name": "Nộ Công Tăng ST", "desc": "Tăng sát thương nộ 1% => 5%." },
+        { "name": "Nộ Công Giảm ST", "desc": "Miễn sát thương nộ 1% => 5%." },
+        { "name": "Kỳ Sách Thủ Hộ", "desc": "Khi bắt đầu chiến đấu, toàn bộ tướng phe ta tăng 25% miễn sát thương, duy trì đến khi kết thúc chiến đấu." },
+        { "name": "Ngụy Quyệt", "desc": "Khi bị đánh thường hoặc nộ công, người tấn công giảm 30% sát thương, duy trì 2 hiệp." },
+        { "name": "Hồi Phong Phản Ảnh", "desc": "Sau khi nộ công, bản thân và tướng cùng hàng tăng 5% phòng thủ, 20% miễn sát thương, duy trì 2 hiệp, cộng dồn 2 tầng." },
+        { "name": "Dũng Ngự Trấn Địch", "desc": "Sau khi nộ công, giúp tất cả tướng phe ta tăng Hộ Thuẫn bằng 200% tấn công, duy trì 2 hiệp." }
+      ]
+    },
+    {
+      "name": "THƯỜNG",
+      "quality": "ban_kim",
+      "layout_id": "common_tree_v1",
+      "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/cam_nang/ban_kim_3.png",
+      "content": [
+        { "name": "Cường Hóa Tấn Công", "desc": "Tỉ lệ tấn công tăng 1% => 5%." },
+        { "name": "Cường Hóa Phòng Thủ", "desc": "Tỉ lệ phòng thủ tăng 1% => 5%." },
+        { "name": "Cường Hóa HP", "desc": "Tỉ lệ HP tăng 1% => 5%." },
+        { "name": "Cẩm Nang Diệu Pháp", "desc": "Khi đánh thường tăng 20 điểm nộ." },
+        { "name": "Cường Hóa Đánh Nhóm", "desc": "Tỉ lệ tấn công toàn đội tăng 1% => 5%." },
+        { "name": "Cường Hóa Phòng Thủ Nhóm", "desc": "Tỉ lệ phòng thủ toàn đội tăng 1% => 5%." },
+        { "name": "Cường Hóa HP Nhóm", "desc": "Tỉ lệ HP toàn đội tăng 1% => 5%." },
+        { "name": "Truy Tinh", "desc": "Khi bắt đầu chiến đấu, tăng phá Ngụy, Thục, Ngô, Quần Hùng, Danh Tướng, Chủ Tướng 15%, tăng kháng Ngụy, Thục, Ngô, Quần Hùng, Danh Tướng, Chủ Tướng 15%, duy trì 2 hiệp." },
+        { "name": "Trục Nguyệt", "desc": "Khi bắt đầu chiến đấu, tăng phá Ngụy, Thục, Ngô, Quần Hùng, Danh Tướng, Chủ Tướng 7.5%, tăng kháng Ngụy, Thục, Ngô, Quần Hùng, Danh Tướng, Chủ Tướng 7.5%, duy trì đến khi kết thúc chiến đấu." },
+        { "name": "Đánh Thường Tăng ST", "desc": "Tăng sát thương công thường 1% => 5%." },
+        { "name": "Đánh Thường Giảm ST", "desc": "Giảm sát thương công thường 1% => 5%." },
+        { "name": "Nộ Công Tăng ST", "desc": "Tăng sát thương nộ 1% => 5%." },
+        { "name": "Nộ Công Giảm ST", "desc": "Miễn sát thương nộ 1% => 5%." },
+        { "name": "Tuyệt Xứ Phùng Mưu", "desc": "Khi bản thân tử vong, tất cả tướng phe ta tăng 30% sát thương, 30% miễn sát thương, duy trì đến khi kết thúc chiến đấu." },
+        { "name": "Vận Trù", "desc": "Sau khi nộ công, toàn bộ tướng phe ta tăng 20% sát thương, 5% tấn công, 30% chính xác duy trì 1 hiệp." },
+        { "name": "Trí Kế Vô Song", "desc": "Sau khi đánh thường, bản thân và tướng có HP cao nhất phe ta kèm thêm hộ thuẫn bằng 80% tấn công, duy trì 1 hiệp. Gây cho toàn bộ tướng địch sát thương bằng 60% tấn công." },
+        { "name": "Kế Cao Nhất Trù", "desc": "Sau khi nộ công, toàn bộ tướng địch giảm 15 điểm nộ, giảm 15% sát thương duy trì 2 hiệp, mỗi trận tối đa kích hoạt 2 lần." }
+      ]
+    }
   ]
 }
