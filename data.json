@@ -103,6 +103,28 @@
         { "name": "Lôi Đình Vạn Quân", "desc": "Tăng [10, 20, 30, 40, 50]% phá nhân vật." }
       ]
     },
+    {
+      "name": "TP Lưu Kim",
+      "slug": "tk_luu_kim",
+      "country": "thien_phu",
+      "quality": "luu_kim",
+      "layout_id": "general_tree_v1",
+      "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/tuong/talent/luu_kim.png",
+      "content": [
+        { "name": "Bạch Hồng Quý Nhật", "desc": "Tấn công tăng [1M, 2M, 3M, 4M, 5M]." },
+        { "name": "Bất Động Như Sơn", "desc": "Phòng thủ tăng [1M, 2M, 3M, 4M, 5M]." },
+        { "name": "Khí Huyết Sung Mãn", "desc": "HP tăng [10M, 20M, 30M, 40M, 50M]." },
+        { "name": "Thiên Giáng Cam Lâm", "desc": "Tăng giới hạn năng lượng Lưu Kim bằng [5, 10, 15, 20, 25]% HP tối đa." },
+        { "name": "Phong Mang", "desc": "Khi NLLK còn tồn tại, bản thân tăng sát thương [10, 20, 30, 40, 50]%." },
+        { "name": "Kim Chung", "desc": "Khi NLLK còn tồn tại, bản thân tăng miễn sát thương [10, 20, 30, 40, 50]%." },
+        { "name": "Kiên Cốt", "desc": "Khi NLLK còn tồn tại, tăng [10, 20, 30, 40, 50]% kháng Ngụy, Thục, Ngô, Quần Hùng." },
+        { "name": "Khánh Nham", "desc": "Khi NLLK còn tồn tại, tăng [10, 20, 30, 40, 50]% kháng Danh Tướng." },
+        { "name": "Hoằng Vũ", "desc": "Khi NLLK còn tồn tại, tăng [10, 20, 30, 40, 50]% kháng Nhân Vật." },
+        { "name": "Khí Thôn Sơn Hà", "desc": "Khi NLLK còn tồn tại, bản thân tăng [3, 6, 9, 12, 15]% tấn công cuối" },
+        { "name": "Kim Cang Bất Hoại", "desc": "Khi NLLK còn tồn tại, bản thân tăng [3, 6, 9, 12, 15]% phòng thủ cuối." },
+        { "name": "Chiến Cổ Lôi Minh", "desc": "Tăng giới hạn năng lượng Lưu Kim bằng [5, 10, 15, 20, 25]% HP tối đa." }
+      ]
+    },
     { "id": 1, "name": "Trương Liêu", "quality": "tu_kim", "slug": "truong_lieu", "country": "nguy" },
     { "id": 2, "name": "Tư Mã Ý", "quality": "tu_kim", "slug": "tu_ma_y", "country": "nguy" },
     { "id": 3, "name": "Tuân Úc", "quality": "tu_kim", "slug": "tuan_uc", "country": "nguy" },
