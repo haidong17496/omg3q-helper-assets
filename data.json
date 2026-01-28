@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "binh_phu": [
     { "id": 1, "name": "Võ Đương Phi Quân", "quality": "kim", "slug": "vo_duong_phi_quan" },
     { "id": 2, "name": "Tiên Đăng Tử Sĩ", "quality": "kim", "slug": "tien_dang_tu_si" },
@@ -991,6 +991,94 @@
         { "name": "Vận Trù", "desc": "Sau khi nộ công, toàn bộ tướng phe ta tăng 20% sát thương, 5% tấn công, 30% chính xác duy trì 1 hiệp." },
         { "name": "Trí Kế Vô Song", "desc": "Sau khi đánh thường, bản thân và tướng có HP cao nhất phe ta kèm thêm hộ thuẫn bằng 80% tấn công, duy trì 1 hiệp. Gây cho toàn bộ tướng địch sát thương bằng 60% tấn công." },
         { "name": "Kế Cao Nhất Trù", "desc": "Sau khi nộ công, toàn bộ tướng địch giảm 15 điểm nộ, giảm 15% sát thương duy trì 2 hiệp, mỗi trận tối đa kích hoạt 2 lần." }
+      ]
+    },
+    {
+      "name": "TỔNG HỢP CẨM NANG ĐỎ",
+      "quality": "do", 
+      "layout_id": "handbook_red_3x7",
+      "bg_image": "https://raw.githubusercontent.com/haidong17496/omg3q-helper-assets/main/cam_nang/cam_nang_do_full.png",
+      "content": [
+        { 
+          "name": "Tự Thủ Bàng Quan", 
+          "desc": "- 5 sao: Kháng giảm nộ +45%, HP +12%\n- Kim: Kháng giảm nộ +45%, HP +16%, Kháng khóa trị liệu +15%\n- Ám: Kháng giảm nộ +50%, HP +20%, Kháng khóa trị liệu +50%\n- Tử: Kháng giảm nộ +60%, HP +24%, Kháng khóa trị liệu +60%" 
+        },
+        { 
+          "name": "Bán Tín Bán Nghi", 
+          "desc": "- 5 sao: Kháng choáng +45%, HP +12%\n- Kim: Kháng choáng +45%, HP +16%, Kháng tê liệt +15%\n- Ám: Kháng choáng +50%, HP +20%, Kháng tê liệt +50%\n- Tử: Kháng choáng +60%, HP +24%, Kháng tê liệt +60%" 
+        },
+        { 
+          "name": "Thao Quang Dưỡng Hối", 
+          "desc": "- 5 sao: Sau khi nộ công, 45% choáng 1 kẻ địch hàng trước 1 hiệp\n- Kim: Sau khi nộ công, 60% choáng 1 kẻ địch hàng trước 1 hiệp\n- Ám: Sau khi nộ công, 75% choáng 1 kẻ địch hàng trước 1 hiệp\n- Tử: Sau khi nộ công, 100% choáng 1 kẻ địch hàng trước 1 hiệp" 
+        },
+        { 
+          "name": "Trí Thiết Không Thành", 
+          "desc": "- 5 sao: Sau khi nộ công, 60% khóa kỹ năng 1 kẻ địch hàng trước 1 hiệp\n- Kim: Sau khi nộ công, 80% khóa kỹ năng 1 kẻ địch hàng trước 1 hiệp\n- Ám: Sau khi nộ công, 100% khóa kỹ năng 1 kẻ địch hàng trước 1 hiệp\n- Tử: Sau khi nộ công, 100% khóa kỹ năng 1 kẻ địch hàng trước 1 hiệp, giảm 10% miễn sát thương, duy trì 1 hiệp" 
+        },
+        { 
+          "name": "Minh Sát Thu Hào", 
+          "desc": "- 5 sao: HP +24%\n- Kim: HP +32%\n- Ám: HP +40%\n- Tử: HP +50%" 
+        },
+        { 
+          "name": "Chịu Khổ Cực", 
+          "desc": "- 5 sao: Hiệp 1 ra trận tăng 48% miễn sát thương\n- Kim: Hiệp 1 ra trận tăng 64% miễn sát thương\n- Ám: Hiệp 1 ra trận tăng 80% miễn sát thương\n- Tử: Hiệp 1 ra trận tăng 100% miễn sát thương" 
+        },
+        { 
+          "name": "Biệt Xuất Tâm Tài", 
+          "desc": "- 5 sao: Hiệp 1 ra trận tăng 48% sát thương\n- Kim: Hiệp 1 ra trận tăng 64% sát thương\n- Ám: Hiệp 1 ra trận tăng 80% sát thương\n- Tử: Hiệp 1 ra trận tăng 100% sát thương" 
+        },
+        { 
+          "name": "Phong Hỏa Lang Yên", 
+          "desc": "- 5 sao: Tấn công +9000, Phòng thủ +9000\n- Kim: Tấn công +12000, Phòng thủ +12000\n- Ám: Tấn công +15000, Phòng thủ +15000\n- Tử: Tấn công +20000, Phòng thủ +20000" 
+        },
+        { 
+          "name": "Thuyền Cỏ Mượn Tên", 
+          "desc": "- 5 sao: HP +90000, Phòng thủ +9000\n- Kim: HP +120000, Phòng thủ +12000\n- Ám: HP +150000, Phòng thủ +15000\n- Tử: HP +200000, Phòng thủ +20000" 
+        },
+        { 
+          "name": "Xảo Kế Liên Hoàn", 
+          "desc": "- 5 sao: Kháng phong ấn +45%, Kháng mê hoặc +45%\n- Kim: Kháng phong ấn +45%, Kháng mê hoặc +45%, Kháng đóng băng +30%\n- Ám: Kháng phong ấn +50%, Kháng mê hoặc +50%, Kháng đóng băng +50%\n- Tử: Kháng phong ấn +60%, Kháng mê hoặc +60%, Kháng đóng băng +60%" 
+        },
+        { 
+          "name": "Dĩ Dật Đãi Lao", 
+          "desc": "- 5 sao: Kháng khóa kỹ năng +45%, Kháng mù +45%\n- Kim: Kháng khóa kỹ năng +45%, Kháng mù +45%, Kháng phong ấn +30%\n- Ám: Kháng khóa kỹ năng +50%, Kháng mù +50%, Kháng phong ấn +50%\n- Tử: Kháng khóa kỹ năng +60%, Kháng mù +60%, Kháng phong ấn +60%" 
+        },
+        { 
+          "name": "Dục Cầm Cố Tung", 
+          "desc": "- 5 sao: Kháng khóa nộ +45%, Kháng phong hồn +45%\n- Kim: Kháng khóa nộ +45%, Kháng phong hồn +45%, Kháng hóa đá +30%\n- Ám: Kháng khóa nộ +50%, Kháng phong hồn +50%, Kháng hóa đá +50%\n- Tử: Kháng khóa nộ +60%, Kháng phong hồn +60%, Kháng hóa đá +60%" 
+        },
+        { 
+          "name": "Vô Trung Sinh Hữu", 
+          "desc": "- 5 sao: Kháng khóa hóa đá +45%, Kháng đóng băng +45%\n- Kim: Kháng khóa hóa đá +45%, Kháng đóng băng +45%, Kháng khóa nộ +30%\n- Ám: Kháng khóa hóa đá +50%, Kháng đóng băng +50%, Kháng khóa nộ +50%\n- Tử: Kháng khóa hóa đá +60%, Kháng đóng băng +60%, Kháng khóa nộ +60%" 
+        },
+        { 
+          "name": "Bắt Tặc Diệt Vương", 
+          "desc": "- 5 sao: Khi bị tấn công, nếu HP bản thân cao hơn đối phương, tăng 24% miễn sát thương\n- Kim: Khi bị tấn công, nếu HP bản thân cao hơn đối phương, tăng 32% miễn sát thương\n- Ám: Khi bị tấn công, nếu HP bản thân cao hơn đối phương, tăng 40% miễn sát thương\n- Tử: Khi bị tấn công, nếu HP bản thân cao hơn đối phương, tăng 50% miễn sát thương" 
+        },
+        { 
+          "name": "Mỹ Nhân Kế", 
+          "desc": "- 5 sao: Sau khi đánh thường, giảm sát thương của 1 kẻ địch hàng trước 15% 2 hiệp, cộng dồn 2 lần.\n- Kim: Sau khi đánh thường, giảm sát thương của 1 kẻ địch hàng trước 20% 2 hiệp, cộng dồn 2 lần.\n- Ám: Sau khi đánh thường, giảm sát thương của 1 kẻ địch hàng trước 25% 2 hiệp, cộng dồn 2 lần.\n- Tử: Sau khi đánh thường, giảm sát thương của 1 kẻ địch hàng trước 30% 2 hiệp, cộng dồn 2 lần." 
+        },
+        { 
+          "name": "Thập Diện Mai Phục", 
+          "desc": "- 5 sao: Tăng sát thương số người phe ta ra trận * 6%\n- Kim: Tăng sát thương số người phe ta ra trận * 8%\n- Ám: Tăng sát thương số người phe ta ra trận * 10%\n- Tử: Tăng sát thương số người phe ta ra trận * 12%" 
+        },
+        { 
+          "name": "Khổ Nhục Kế", 
+          "desc": "- 5 sao: Sau khi đánh thường, tăng Dị thương cho 1 kẻ địch hàng trước 15% 2 hiệp, cộng dồn 2 lần.\n- Kim: Sau khi đánh thường, tăng Dị thương cho 1 kẻ địch hàng trước 20% 2 hiệp, cộng dồn 2 lần.\n- Ám: Sau khi đánh thường, tăng Dị thương cho 1 kẻ địch hàng trước 25% 2 hiệp, cộng dồn 2 lần.\n- Tử: Sau khi đánh thường, tăng Dị thương cho 1 kẻ địch hàng trước 30% 2 hiệp, cộng dồn 2 lần." 
+        },
+        { 
+          "name": "Vọng Mai Chi Khát", 
+          "desc": "- 5 sao: Sau khi đánh thường, 60% giảm 25 điểm nộ 1 kẻ địch hàng trước\n- Kim: Sau khi đánh thường, 80% giảm 25 điểm nộ 1 kẻ địch hàng trước\n- Ám: Sau khi đánh thường, 100% giảm 25 điểm nộ 1 kẻ địch hàng trước\n- Tử: Sau khi đánh thường, 100% giảm 30 điểm nộ 1 kẻ địch hàng trước" 
+        },
+        { 
+          "name": "Vây Ngụy Cứu Triệu", 
+          "desc": "- 5 sao: Sau khi đánh thường, 75% gây Trọng thương 1 kẻ địch hàng trước 2 hiệp (giảm 50% trị liệu)\n- Kim: Sau khi đánh thường, 100% gây Trọng thương 1 kẻ địch hàng trước 2 hiệp (giảm 50% trị liệu)\n- Ám: Sau khi đánh thường, 100% gây Trọng thương 1 kẻ địch hàng trước 2 hiệp (giảm 60% trị liệu)\n- Tử: Sau khi đánh thường, 100% gây Trọng thương 1 kẻ địch hàng trước 2 hiệp (giảm 70% trị liệu)" 
+        },
+        { 
+          "name": "Tương Kế Tựu Kế", 
+          "desc": "- 5 sao: Sau khi đánh thường, 45% khóa nộ 1 kẻ địch hàng trước 1 hiệp\n- Kim: Sau khi đánh thường, 60% khóa nộ 1 kẻ địch hàng trước 1 hiệp\n- Ám: Sau khi đánh thường, 75% khóa nộ 1 kẻ địch hàng trước 1 hiệp\n- Tử: Sau khi đánh thường, 90% khóa nộ 1 kẻ địch hàng trước 1 hiệp" 
+        }
       ]
     }
   ]
