@@ -1329,17 +1329,15 @@
     { "slug": "tuan_tra_giam_sat", "name": "Tuần Tra Giám Sát", "quality": "do" }
   ],
   "other": [
-    { "slug": "tinh_hon", "name": "Tinh Hồn", "quality": "common" },
-    { "slug": "tay_hon_thach", "name": "Tẩy Hồn Thạch", "quality": "common" },
-    
-    { "slug": "tay_tuong_1", "name": "Tẩy Tướng 1", "quality": "common" },
-    { "slug": "tay_tuong_2", "name": "Tẩy Tướng 2", "quality": "common" },
-    { "slug": "tay_tuong_3", "name": "Tẩy Tướng 3", "quality": "common" },
-    { "slug": "tay_tuong_4", "name": "Tẩy Tướng 4", "quality": "common" },
-    
-    { "slug": "tay_than_binh_1", "name": "Tẩy Thần Binh 1", "quality": "common" },
-    { "slug": "tay_than_binh_2", "name": "Tẩy Thần Binh 2", "quality": "common" },
-    { "slug": "tay_than_binh_3", "name": "Tẩy Thần Binh 3", "quality": "common" },
-    { "slug": "tay_than_binh_4", "name": "Tẩy Thần Binh 4", "quality": "common" }
+    { "slug": "tinh_hon", "name": "Tinh Hồn", "quality": "common", "icon": "star-four-points" },
+    { "slug": "tay_hon_thach", "name": "Tẩy Hồn Thạch", "quality": "common", "icon": "diamond-stone" },
+    { "slug": "tay_tuong_1", "name": "Tẩy Tướng 1", "quality": "common", "icon": "helmet" },
+    { "slug": "tay_tuong_2", "name": "Tẩy Tướng 2", "quality": "common", "icon": "helmet" },
+    { "slug": "tay_tuong_3", "name": "Tẩy Tướng 3", "quality": "common", "icon": "helmet" },
+    { "slug": "tay_tuong_4", "name": "Tẩy Tướng 4", "quality": "common", "icon": "helmet" },
+    { "slug": "tay_than_binh_1", "name": "Tẩy Thần Binh 1", "quality": "common", "icon": "hammer-wrench" },
+    { "slug": "tay_than_binh_2", "name": "Tẩy Thần Binh 2", "quality": "common", "icon": "hammer-wrench" },
+    { "slug": "tay_than_binh_3", "name": "Tẩy Thần Binh 3", "quality": "common", "icon": "hammer-wrench" },
+    { "slug": "tay_than_binh_4", "name": "Tẩy Thần Binh 4", "quality": "common", "icon": "hammer-wrench" }
   ]
 }
