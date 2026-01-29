@@ -1,5 +1,5 @@
 {
-  "version": 28,
+  "version": 30,
   "binh_phu": [
     { "id": 1, "name": "Võ Đương Phi Quân", "quality": "kim", "slug": "vo_duong_phi_quan" },
     { "id": 2, "name": "Tiên Đăng Tử Sĩ", "quality": "kim", "slug": "tien_dang_tu_si" },
@@ -1299,5 +1299,33 @@
     { "slug": "thanh_long", "name": "Thanh Long", "quality": "kim" },
     { "slug": "bach_ho", "name": "Bạch Hổ", "quality": "kim" },
     { "slug": "chu_tuoc", "name": "Chu Tước", "quality": "kim" }
-  ]
+  ],
+  "quan_ky": [
+    { "slug": "menh_lenh_thao_phat", "name": "Mệnh Lệnh Thảo Phạt", "quality": "do" },
+    { "slug": "quan_ly_thong_tri", "name": "Quản Lý Thống Trị", "quality": "do" },
+    { "slug": "thao_phat_phan_quan", "name": "Thảo Phạt Phản Quân", "quality": "do" },
+    
+    { "slug": "xung_kien_huy_nhue", "name": "Xung Kiên Hủy Nhuệ", "quality": "thai_kim" },
+    { "slug": "cap_phong_nhi_thi", "name": "Cập Phong Nhi Thí", "quality": "thai_kim" },
+    
+    { "slug": "tri_binh_tran_lu", "name": "Trị Binh Trấn Lữ", "quality": "tu_kim" },
+    { "slug": "chi_binh_le_ngu", "name": "Chỉ Binh Lệ Ngũ", "quality": "tu_kim" },
+    { "slug": "cuc_lu_tran_su", "name": "Cúc Lữ Trần Sư", "quality": "tu_kim" },
+    { "slug": "ngu_vu_chiet_xung", "name": "Ngự Vũ Chiết Xung", "quality": "tu_kim" },
+    { "slug": "mat_sat_giam_quan", "name": "Mật Sát Giám Quân", "quality": "tu_kim" },
+    
+    { "slug": "thong_linh_thien_quan", "name": "Thống Lĩnh Thiên Quân", "quality": "am_kim" },
+    { "slug": "bo_bo_vi_doanh", "name": "Bộ Bộ Vi Doanh", "quality": "am_kim" },
+    { "slug": "tram_quan_doat_ai", "name": "Trảm Quan Đoạt Ải", "quality": "am_kim" },
+    { "slug": "chinh_quan_kinh_vo", "name": "Chỉnh Quân Kinh Võ", "quality": "am_kim" },
+    
+    { "slug": "phan_gian_bat_pha", "name": "Phản Gian Bất Phá", "quality": "kim" },
+    { "slug": "khi_quan_tam_quan", "name": "Khí Quán Tam Quân", "quality": "kim" },
+    { "slug": "duong_binh_suc_nhue", "name": "Dưỡng Binh Súc Nhuệ", "quality": "kim" },
+    { "slug": "chinh_chien_can_qua", "name": "Chinh Chiến Can Qua", "quality": "kim" },
+    
+    { "slug": "quan_ly_chau_quan", "name": "Quản Lý Châu Quận", "quality": "do" },
+    { "slug": "co_vu_si_khi", "name": "Cổ Vũ Sĩ Khí", "quality": "do" },
+    { "slug": "tuan_tra_giam_sat", "name": "Tuần Tra Giám Sát", "quality": "do" }
+  ],
 }
