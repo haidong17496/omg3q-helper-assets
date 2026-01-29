@@ -1,5 +1,5 @@
 {
-  "version": 33,
+  "version": 34,
   "binh_phu": [
     { "id": 1, "name": "Võ Đương Phi Quân", "quality": "kim", "slug": "vo_duong_phi_quan" },
     { "id": 2, "name": "Tiên Đăng Tử Sĩ", "quality": "kim", "slug": "tien_dang_tu_si" },
