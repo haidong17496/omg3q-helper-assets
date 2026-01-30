@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "github": {
+    "user": "haidong17496",
+    "repo": "omg3q-helper-assets",
+    "branch": "main"
+  },
+  "app_config": {
+    "default_ext": "webp",
+    "maintenance": false
+  }
+}
