@@ -1,6 +1,6 @@
 {
   "info": {
-    "generated_at": "2026-01-30T02:25:15.623Z",
+    "generated_at": "2026-01-30T06:01:30.223Z",
     "total_rows": 1955
   },
   "master_data": {
@@ -18,7 +18,13 @@
           "defaultView": "matrix"
         },
         "layoutConfig": {
-          "default": 4
+          "default": 6,
+          "tien_cap": 5,
+          "dot_pha_cam": 5,
+          "chan": 5,
+          "kim": 4,
+          "am_kim": 4,
+          "tu_kim": 4
         },
         "galleryConfig": {
           "type": "grouped_country"
@@ -39,7 +45,8 @@
           "defaultView": "matrix"
         },
         "layoutConfig": {
-          "default": 4
+          "default": 4,
+          "kim": 5
         },
         "galleryConfig": {
           "type": "normal"
