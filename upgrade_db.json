@@ -1,6 +1,6 @@
 {
   "info": {
-    "generated_at": "2026-01-30T08:42:50.168Z",
+    "generated_at": "2026-01-30T09:02:36.017Z",
     "total_rows": 1955
   },
   "master_data": {
@@ -36,27 +36,53 @@
             {
               "code": "thien_phu",
               "name": "THIÊN PHÚ",
-              "color": "#FFD700"
+              "color": "#FFD700",
+              "match": {
+                "country": [
+                  "thien_phu",
+                  "main"
+                ]
+              }
             },
             {
               "code": "nguy",
               "name": "NGỤY QUỐC",
-              "color": "#409EFF"
+              "color": "#409EFF",
+              "match": {
+                "country": [
+                  "nguy"
+                ]
+              }
             },
             {
               "code": "thuc",
               "name": "THỤC QUỐC",
-              "color": "#67C23A"
+              "color": "#67C23A",
+              "match": {
+                "country": [
+                  "thuc"
+                ]
+              }
             },
             {
               "code": "ngo",
               "name": "NGÔ QUỐC",
-              "color": "#F56C6C"
+              "color": "#F56C6C",
+              "match": {
+                "country": [
+                  "ngo"
+                ]
+              }
             },
             {
               "code": "quan",
               "name": "QUẦN HÙNG",
-              "color": "#909399"
+              "color": "#909399",
+              "match": {
+                "country": [
+                  "quan"
+                ]
+              }
             }
           ]
         },
@@ -313,7 +339,39 @@
         "galleryConfig": {
           "processorType": "normal",
           "dataKey": "hon_thach",
-          "folder": "hon_thach"
+          "folder": "hon_thach",
+          "groups": [
+            {
+              "code": "do",
+              "name": "PHẨM ĐỎ",
+              "color": "#FF4B2B",
+              "match": {
+                "quality": [
+                  "do"
+                ]
+              }
+            },
+            {
+              "code": "cam",
+              "name": "PHẨM CAM",
+              "color": "#FF8C00",
+              "match": {
+                "quality": [
+                  "cam"
+                ]
+              }
+            },
+            {
+              "code": "tim",
+              "name": "PHẨM TÍM",
+              "color": "#E066FF",
+              "match": {
+                "quality": [
+                  "tim"
+                ]
+              }
+            }
+          ]
         },
         "filterConfig": {
           "autoClose": true
@@ -489,7 +547,7 @@
         "id": 8,
         "code": "cam",
         "name": "Cam",
-        "color_code": "#FF7043",
+        "color_code": "#FF8C00",
         "is_hero": 0
       },
       {
