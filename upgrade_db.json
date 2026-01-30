@@ -1070,6 +1070,13 @@
         "qualityCode": "tu_kim"
       },
       {
+        "code": "pet_thai_linh",
+        "name": "Pet Thái Kim Linh",
+        "shortName": "NL Thái",
+        "unit": "nl",
+        "qualityCode": "thai_kim"
+      },
+      {
         "code": "pet_ban_linh",
         "name": "Pet Bàn Kim Linh",
         "shortName": "NL Bàn",
