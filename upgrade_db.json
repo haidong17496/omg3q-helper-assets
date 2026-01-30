@@ -1,122 +1,352 @@
 {
   "info": {
-    "generated_at": "2026-01-29T15:25:36.289Z",
+    "generated_at": "2026-01-30T02:25:15.623Z",
     "total_rows": 1955
   },
   "master_data": {
-    "version": 2,
+    "version": 3,
     "categories": [
       {
         "id": 1,
         "code": "general",
         "name": "Tướng",
         "icon": "chess-king",
-        "sort_order": 1
+        "sort_order": 1,
+        "viewConfig": {
+          "enableMatrix": true,
+          "enableGallery": true,
+          "defaultView": "matrix"
+        },
+        "layoutConfig": {
+          "default": 4
+        },
+        "galleryConfig": {
+          "type": "grouped_country"
+        },
+        "filterConfig": {
+          "autoClose": false
+        }
       },
       {
         "id": 2,
         "code": "equipment",
         "name": "Trang Bị",
         "icon": "sword",
-        "sort_order": 2
+        "sort_order": 2,
+        "viewConfig": {
+          "enableMatrix": true,
+          "enableGallery": true,
+          "defaultView": "matrix"
+        },
+        "layoutConfig": {
+          "default": 4
+        },
+        "galleryConfig": {
+          "type": "normal"
+        },
+        "filterConfig": {
+          "autoClose": false
+        }
       },
       {
         "id": 3,
         "code": "accessory",
         "name": "Trang Sức",
         "icon": "horse-variant",
-        "sort_order": 3
+        "sort_order": 3,
+        "viewConfig": {
+          "enableMatrix": true,
+          "enableGallery": true,
+          "defaultView": "matrix"
+        },
+        "layoutConfig": {
+          "default": 4
+        },
+        "galleryConfig": {
+          "type": "normal"
+        },
+        "filterConfig": {
+          "autoClose": false
+        }
       },
       {
         "id": 4,
         "code": "treasure",
         "name": "Bảo Vật",
         "icon": "book-open-variant",
-        "sort_order": 4
+        "sort_order": 4,
+        "viewConfig": {
+          "enableMatrix": true,
+          "enableGallery": true,
+          "defaultView": "matrix"
+        },
+        "layoutConfig": {
+          "default": 4
+        },
+        "galleryConfig": {
+          "type": "normal"
+        },
+        "filterConfig": {
+          "autoClose": false
+        }
       },
       {
         "id": 5,
         "code": "pet",
         "name": "Pet",
         "icon": "paw",
-        "sort_order": 5
+        "sort_order": 5,
+        "viewConfig": {
+          "enableMatrix": true,
+          "enableGallery": true,
+          "defaultView": "matrix"
+        },
+        "layoutConfig": {
+          "default": 4,
+          "tien_cap": 3
+        },
+        "galleryConfig": {
+          "type": "normal"
+        },
+        "filterConfig": {
+          "autoClose": false
+        }
       },
       {
         "id": 6,
         "code": "god_weapon",
         "name": "Thần Binh",
         "icon": "sword-cross",
-        "sort_order": 6
+        "sort_order": 6,
+        "viewConfig": {
+          "enableMatrix": true,
+          "enableGallery": true,
+          "defaultView": "matrix"
+        },
+        "layoutConfig": {
+          "default": 4
+        },
+        "galleryConfig": {
+          "type": "normal"
+        },
+        "filterConfig": {
+          "autoClose": false,
+          "qualityAlias": {
+            "hiem": "TB 15",
+            "hot": "TB 18",
+            "do": "TB 20"
+          }
+        }
       },
       {
         "id": 7,
         "code": "handbook",
         "name": "Cẩm Nang",
         "icon": "script-text",
-        "sort_order": 7
+        "sort_order": 7,
+        "viewConfig": {
+          "enableMatrix": true,
+          "enableGallery": true,
+          "defaultView": "matrix"
+        },
+        "layoutConfig": {
+          "default": 4
+        },
+        "galleryConfig": {
+          "type": "normal"
+        },
+        "filterConfig": {
+          "autoClose": false
+        }
       },
       {
         "id": 8,
         "code": "military_seal",
         "name": "Binh Phù",
         "icon": "medal",
-        "sort_order": 8
+        "sort_order": 8,
+        "viewConfig": {
+          "enableMatrix": true,
+          "enableGallery": true,
+          "defaultView": "matrix"
+        },
+        "layoutConfig": {
+          "default": 6
+        },
+        "galleryConfig": {
+          "type": "normal"
+        },
+        "filterConfig": {
+          "autoClose": true
+        }
       },
       {
         "id": 9,
         "code": "military_book",
         "name": "Binh Thư",
         "icon": "bookshelf",
-        "sort_order": 9
+        "sort_order": 9,
+        "viewConfig": {
+          "enableMatrix": true,
+          "enableGallery": true,
+          "defaultView": "matrix"
+        },
+        "layoutConfig": {
+          "default": 4
+        },
+        "galleryConfig": {
+          "type": "normal"
+        },
+        "filterConfig": {
+          "autoClose": true
+        }
       },
       {
         "id": 10,
         "code": "costume",
         "name": "Trang Phục",
         "icon": "tshirt-crew",
-        "sort_order": 10
+        "sort_order": 10,
+        "viewConfig": {
+          "enableMatrix": false,
+          "enableGallery": true,
+          "defaultView": "gallery"
+        },
+        "layoutConfig": {
+          "default": 4
+        },
+        "galleryConfig": {
+          "type": "html_viewer"
+        },
+        "filterConfig": {
+          "autoClose": true
+        }
       },
       {
         "id": 11,
         "code": "soul_stone",
         "name": "Hồn Thạch",
         "icon": "diamond-stone",
-        "sort_order": 11
+        "sort_order": 11,
+        "viewConfig": {
+          "enableMatrix": true,
+          "enableGallery": true,
+          "defaultView": "gallery"
+        },
+        "layoutConfig": {
+          "default": 5
+        },
+        "galleryConfig": {
+          "type": "normal"
+        },
+        "filterConfig": {
+          "autoClose": true
+        }
       },
       {
         "id": 12,
         "code": "soul_jade",
         "name": "Hồn Ngọc",
         "icon": "pyramid",
-        "sort_order": 12
+        "sort_order": 12,
+        "viewConfig": {
+          "enableMatrix": false,
+          "enableGallery": true,
+          "defaultView": "gallery"
+        },
+        "layoutConfig": {
+          "default": 4
+        },
+        "galleryConfig": {
+          "type": "normal"
+        },
+        "filterConfig": {
+          "autoClose": true
+        }
       },
       {
         "id": 13,
         "code": "beauty_book",
         "name": "Sách Mỹ Nhân",
         "icon": "book-heart",
-        "sort_order": 13
+        "sort_order": 13,
+        "viewConfig": {
+          "enableMatrix": false,
+          "enableGallery": true,
+          "defaultView": "gallery"
+        },
+        "layoutConfig": {
+          "default": 4
+        },
+        "galleryConfig": {
+          "type": "normal"
+        },
+        "filterConfig": {
+          "autoClose": true
+        }
       },
       {
         "id": 14,
         "code": "divine_beast",
         "name": "Thần Thú",
         "icon": "dharmachakra",
-        "sort_order": 14
+        "sort_order": 14,
+        "viewConfig": {
+          "enableMatrix": false,
+          "enableGallery": true,
+          "defaultView": "gallery"
+        },
+        "layoutConfig": {
+          "default": 4
+        },
+        "galleryConfig": {
+          "type": "normal"
+        },
+        "filterConfig": {
+          "autoClose": true
+        }
       },
       {
         "id": 15,
         "code": "official_skill",
         "name": "Quan Kỹ",
         "icon": "seal-variant",
-        "sort_order": 15
+        "sort_order": 15,
+        "viewConfig": {
+          "enableMatrix": false,
+          "enableGallery": true,
+          "defaultView": "gallery"
+        },
+        "layoutConfig": {
+          "default": 4
+        },
+        "galleryConfig": {
+          "type": "normal"
+        },
+        "filterConfig": {
+          "autoClose": true
+        }
       },
       {
         "id": 16,
         "code": "other",
         "name": "Khác",
         "icon": "dots-horizontal",
-        "sort_order": 16
+        "sort_order": 16,
+        "viewConfig": {
+          "enableMatrix": false,
+          "enableGallery": true,
+          "defaultView": "gallery"
+        },
+        "layoutConfig": {
+          "default": 4
+        },
+        "galleryConfig": {
+          "type": "grouped_section"
+        },
+        "filterConfig": {
+          "autoClose": true
+        }
       }
     ],
     "qualities": [
