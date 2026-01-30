@@ -70,9 +70,7 @@
       "slug": "main",
       "country": "thien_phu",
       "quality": "kim",
-      "sort_order": 1,
-      "layout_id": "general_tree_v1",
-      "bg_image": "tuong/icons/main.webp"
+      "sort_order": 1
     },
     {
       "name": "TP Thái Kim",
