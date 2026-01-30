@@ -1,6 +1,6 @@
 {
   "info": {
-    "generated_at": "2026-01-30T14:50:46.199Z",
+    "generated_at": "2026-01-30T14:54:20.452Z",
     "total_rows": 1955
   },
   "master_data": {
@@ -1081,7 +1081,7 @@
         "name": "Pet Bàn Kim Linh",
         "shortName": "NL Bàn",
         "unit": "nl",
-        "qualityCode": "thai_kim"
+        "qualityCode": "ban_kim"
       },
       {
         "code": "pet_luu_linh",
