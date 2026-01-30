@@ -1,6 +1,6 @@
 {
   "info": {
-    "generated_at": "2026-01-30T09:20:53.883Z",
+    "generated_at": "2026-01-30T14:29:46.781Z",
     "total_rows": 1955
   },
   "master_data": {
@@ -659,7 +659,7 @@
       {
         "code": "da_tuong_do",
         "name": "Đá Tướng Đỏ",
-        "shortName": "Đá Đỏ",
+        "shortName": "Đá T.Đỏ",
         "unit": "đá",
         "qualityCode": "do"
       },
@@ -708,14 +708,14 @@
       {
         "code": "am_kim_chan_quyet",
         "name": "Ám Kim Chân Quyết",
-        "shortName": "AKCQ",
+        "shortName": "NL Ám",
         "unit": "nl",
         "qualityCode": "am_kim"
       },
       {
         "code": "long_hon",
         "name": "Long Hồn",
-        "shortName": "Long Hồn",
+        "shortName": "NL Ám",
         "unit": "viên",
         "qualityCode": "am_kim"
       },
@@ -778,7 +778,7 @@
       {
         "code": "trang_bi_kim_linh",
         "name": "Trang Bị Kim Linh",
-        "shortName": "NL",
+        "shortName": "NL Kim",
         "unit": "nl",
         "qualityCode": "kim"
       },
@@ -792,7 +792,7 @@
       {
         "code": "am_kim_linh",
         "name": "Ám Kim Linh",
-        "shortName": "NL",
+        "shortName": "NL Ám",
         "unit": "nl",
         "qualityCode": "am_kim"
       },
@@ -806,7 +806,7 @@
       {
         "code": "tu_kim_linh",
         "name": "Tử Kim Linh",
-        "shortName": "NL",
+        "shortName": "NL Tử",
         "unit": "nl",
         "qualityCode": "tu_kim"
       },
@@ -820,7 +820,7 @@
       {
         "code": "tinh_hoa_thai_kim",
         "name": "Tinh Hoa Thái Kim",
-        "shortName": "NL",
+        "shortName": "NL Thái",
         "unit": "nl",
         "qualityCode": "thai_kim"
       },
@@ -834,7 +834,7 @@
       {
         "code": "tinh_hoa_ban_kim",
         "name": "Tinh Hoa Bàn Kim",
-        "shortName": "NL",
+        "shortName": "NL Bàn",
         "unit": "nl",
         "qualityCode": "ban_kim"
       },
@@ -848,7 +848,7 @@
       {
         "code": "tinh_hoa_luu_kim",
         "name": "Tinh Hoa Lưu Kim",
-        "shortName": "NL",
+        "shortName": "NL Lưu",
         "unit": "nl",
         "qualityCode": "luu_kim"
       },
@@ -862,7 +862,7 @@
       {
         "code": "ts_kim_nguyen",
         "name": "Kim Nguyên",
-        "shortName": "NL",
+        "shortName": "NL Kim",
         "unit": "nl",
         "qualityCode": "kim"
       },
@@ -876,7 +876,7 @@
       {
         "code": "ts_am_nguyen",
         "name": "Ám Kim Nguyên",
-        "shortName": "NL",
+        "shortName": "NL Ám",
         "unit": "nl",
         "qualityCode": "am_kim"
       },
@@ -890,7 +890,7 @@
       {
         "code": "ts_tu_nguyen",
         "name": "Tử Kim Nguyên",
-        "shortName": "NL",
+        "shortName": "NL Tử",
         "unit": "nl",
         "qualityCode": "tu_kim"
       },
@@ -904,7 +904,7 @@
       {
         "code": "ts_thai_nguyen",
         "name": "Thái Kim Ngọc Loát",
-        "shortName": "NL",
+        "shortName": "NL Thái",
         "unit": "nl",
         "qualityCode": "thai_kim"
       },
@@ -918,7 +918,7 @@
       {
         "code": "ts_ban_nguyen",
         "name": "Sừng Kỳ Lân",
-        "shortName": "NL",
+        "shortName": "NL Bàn",
         "unit": "nl",
         "qualityCode": "ban_kim"
       },
@@ -932,7 +932,7 @@
       {
         "code": "ts_luu_nguyen",
         "name": "Xuất Tinh Khấu",
-        "shortName": "NL",
+        "shortName": "NL Lưu",
         "unit": "nl",
         "qualityCode": "luu_kim"
       },
@@ -946,7 +946,7 @@
       {
         "code": "bv_kim_nl",
         "name": "Đá Tăng Kim Bảo Vật",
-        "shortName": "NL",
+        "shortName": "NL Kim",
         "unit": "nl",
         "qualityCode": "kim"
       },
@@ -960,7 +960,7 @@
       {
         "code": "bv_am_nl",
         "name": "Ám Kim Bảo Ngọc",
-        "shortName": "NL",
+        "shortName": "NL Ám",
         "unit": "nl",
         "qualityCode": "am_kim"
       },
@@ -974,7 +974,7 @@
       {
         "code": "bv_tu_nl",
         "name": "Tinh Hoa Bảo Vật Tử Kim",
-        "shortName": "NL",
+        "shortName": "NL Tử",
         "unit": "nl",
         "qualityCode": "tu_kim"
       },
@@ -988,7 +988,7 @@
       {
         "code": "bv_thai_nl",
         "name": "Bảo Ngọc Thái Kim",
-        "shortName": "NL",
+        "shortName": "NL Thái",
         "unit": "nl",
         "qualityCode": "thai_kim"
       },
@@ -1002,7 +1002,7 @@
       {
         "code": "bv_ban_nl",
         "name": "Linh Ngọc Bàn Kim",
-        "shortName": "NL",
+        "shortName": "NL Bàn",
         "unit": "nl",
         "qualityCode": "ban_kim"
       },
@@ -1016,7 +1016,7 @@
       {
         "code": "bv_luu_nl",
         "name": "Linh Ngọc Lưu Kim",
-        "shortName": "NL",
+        "shortName": "NL Lưu",
         "unit": "nl",
         "qualityCode": "luu_kim"
       },
@@ -1037,7 +1037,7 @@
       {
         "code": "pet_sao_don",
         "name": "Pet Tăng Sao Đơn",
-        "shortName": "NL",
+        "shortName": "NL Tăng Sao",
         "unit": "nl",
         "qualityCode": "hot"
       },
@@ -1070,6 +1070,13 @@
         "qualityCode": "tu_kim"
       },
       {
+        "code": "pet_thai_linh",
+        "name": "Pet Thái Kim Linh",
+        "shortName": "NL Thái",
+        "unit": "nl",
+        "qualityCode": "thai_kim"
+      },
+      {
         "code": "pet_ban_linh",
         "name": "Pet Bàn Kim Linh",
         "shortName": "NL Bàn",
@@ -1081,7 +1088,7 @@
         "name": "Pet Lưu Kim Linh",
         "shortName": "NL Lưu",
         "unit": "nl",
-        "qualityCode": "ban_kim"
+        "qualityCode": "luu_kim"
       },
       {
         "code": "tb_con",
@@ -1093,7 +1100,7 @@
       {
         "code": "da_dp_tb",
         "name": "Đá Đột Phá Thần Binh",
-        "shortName": "Đá",
+        "shortName": "Đá ĐP",
         "unit": "nl",
         "qualityCode": "do"
       },
@@ -1107,21 +1114,21 @@
       {
         "code": "da_am_tb",
         "name": "Đá Ám Kim Thần Binh",
-        "shortName": "NL",
+        "shortName": "NL Ám",
         "unit": "nl",
         "qualityCode": "am_kim"
       },
       {
         "code": "da_tu_tb",
         "name": "Đá Tử Kim Thần Binh",
-        "shortName": "NL",
+        "shortName": "NL Tử",
         "unit": "nl",
         "qualityCode": "tu_kim"
       },
       {
         "code": "cuu_chuyen_tt",
         "name": "Cửu Chuyển Tinh Thiết",
-        "shortName": "NL",
+        "shortName": "NL Thái",
         "unit": "nl",
         "qualityCode": "thai_kim"
       },
@@ -1135,7 +1142,7 @@
       {
         "code": "minh_tinh_tl",
         "name": "Minh Tịnh Tiên Lộ",
-        "shortName": "NL",
+        "shortName": "NL Bàn",
         "unit": "nl",
         "qualityCode": "ban_kim"
       },
@@ -1149,7 +1156,7 @@
       {
         "code": "cam_tu_ngoc",
         "name": "Cẩm Tú Ngọc",
-        "shortName": "NL",
+        "shortName": "Cẩm Tú Ngọc",
         "unit": "nl",
         "qualityCode": "do"
       },
