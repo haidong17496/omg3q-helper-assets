@@ -1,6 +1,6 @@
 {
   "info": {
-    "generated_at": "2026-01-30T09:02:36.017Z",
+    "generated_at": "2026-01-30T09:20:53.883Z",
     "total_rows": 1955
   },
   "master_data": {
@@ -171,7 +171,8 @@
         },
         "layoutConfig": {
           "default": 4,
-          "tien_cap": 3
+          "tien_cap": 3,
+          "dot_pha_cam": 3
         },
         "galleryConfig": {
           "processorType": "talent",
@@ -193,7 +194,9 @@
           "defaultView": "matrix"
         },
         "layoutConfig": {
-          "default": 4
+          "default": 4,
+          "dot_pha_do": 3,
+          "tien_cap": 5
         },
         "galleryConfig": {
           "processorType": "talent",
@@ -9215,7 +9218,7 @@
       "dot_pha_do",
       "hiem",
       0,
-      0,
+      1,
       "tinh_thach_lv1",
       4
     ],
@@ -9224,7 +9227,7 @@
       "dot_pha_do",
       "hiem",
       0,
-      0,
+      1,
       "tb_con",
       8
     ],
@@ -9232,8 +9235,8 @@
       6,
       "dot_pha_do",
       "hiem",
-      1,
       0,
+      2,
       "tinh_thach_lv1",
       8
     ],
@@ -9241,8 +9244,8 @@
       6,
       "dot_pha_do",
       "hiem",
-      1,
       0,
+      2,
       "tb_con",
       14
     ],
@@ -9250,8 +9253,8 @@
       6,
       "dot_pha_do",
       "hiem",
-      2,
       0,
+      3,
       "tinh_thach_lv1",
       16
     ],
@@ -9259,8 +9262,8 @@
       6,
       "dot_pha_do",
       "hiem",
-      2,
       0,
+      3,
       "tb_con",
       18
     ],
@@ -10025,7 +10028,7 @@
       "dot_pha_do",
       "hot",
       0,
-      0,
+      1,
       "tinh_thach_lv1",
       4
     ],
@@ -10034,7 +10037,7 @@
       "dot_pha_do",
       "hot",
       0,
-      0,
+      1,
       "tb_con",
       2
     ],
@@ -10042,8 +10045,8 @@
       6,
       "dot_pha_do",
       "hot",
-      1,
       0,
+      2,
       "tinh_thach_lv1",
       8
     ],
@@ -10051,8 +10054,8 @@
       6,
       "dot_pha_do",
       "hot",
-      1,
       0,
+      2,
       "tb_con",
       4
     ],
@@ -10060,8 +10063,8 @@
       6,
       "dot_pha_do",
       "hot",
-      2,
       0,
+      3,
       "tinh_thach_lv1",
       16
     ],
@@ -10069,8 +10072,8 @@
       6,
       "dot_pha_do",
       "hot",
-      2,
       0,
+      3,
       "tb_con",
       4
     ],
