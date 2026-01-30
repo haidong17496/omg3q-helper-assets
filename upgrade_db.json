@@ -1,6 +1,6 @@
 {
   "info": {
-    "generated_at": "2026-01-30T06:01:30.223Z",
+    "generated_at": "2026-01-30T06:32:18.418Z",
     "total_rows": 1955
   },
   "master_data": {
@@ -27,7 +27,8 @@
           "tu_kim": 4
         },
         "galleryConfig": {
-          "type": "grouped_country"
+          "type": "grouped_country",
+          "dataKey": "tuong"
         },
         "filterConfig": {
           "autoClose": false
@@ -49,7 +50,7 @@
           "kim": 5
         },
         "galleryConfig": {
-          "type": "normal"
+          "dataKey": "thien_phu_trang_bi"
         },
         "filterConfig": {
           "autoClose": false
@@ -70,7 +71,7 @@
           "default": 4
         },
         "galleryConfig": {
-          "type": "normal"
+          "dataKey": "thien_phu_trang_suc"
         },
         "filterConfig": {
           "autoClose": false
@@ -91,7 +92,7 @@
           "default": 4
         },
         "galleryConfig": {
-          "type": "normal"
+          "dataKey": "thien_phu_bao_vat"
         },
         "filterConfig": {
           "autoClose": false
@@ -113,7 +114,7 @@
           "tien_cap": 3
         },
         "galleryConfig": {
-          "type": "normal"
+          "dataKey": "thien_phu_pet"
         },
         "filterConfig": {
           "autoClose": false
@@ -134,7 +135,7 @@
           "default": 4
         },
         "galleryConfig": {
-          "type": "normal"
+          "dataKey": "thien_phu_than_binh"
         },
         "filterConfig": {
           "autoClose": false,
@@ -160,7 +161,7 @@
           "default": 4
         },
         "galleryConfig": {
-          "type": "normal"
+          "dataKey": "cam_nang"
         },
         "filterConfig": {
           "autoClose": false
@@ -181,7 +182,7 @@
           "default": 6
         },
         "galleryConfig": {
-          "type": "normal"
+          "dataKey": "binh_phu"
         },
         "filterConfig": {
           "autoClose": true
@@ -202,7 +203,7 @@
           "default": 4
         },
         "galleryConfig": {
-          "type": "normal"
+          "dataKey": "binh_thu"
         },
         "filterConfig": {
           "autoClose": true
@@ -219,11 +220,10 @@
           "enableGallery": true,
           "defaultView": "gallery"
         },
-        "layoutConfig": {
-          "default": 4
-        },
+        "layoutConfig": {},
         "galleryConfig": {
-          "type": "html_viewer"
+          "type": "html_viewer",
+          "dataKey": "costume"
         },
         "filterConfig": {
           "autoClose": true
@@ -244,7 +244,7 @@
           "default": 5
         },
         "galleryConfig": {
-          "type": "normal"
+          "dataKey": "hon_thach"
         },
         "filterConfig": {
           "autoClose": true
@@ -261,11 +261,9 @@
           "enableGallery": true,
           "defaultView": "gallery"
         },
-        "layoutConfig": {
-          "default": 4
-        },
+        "layoutConfig": {},
         "galleryConfig": {
-          "type": "normal"
+          "dataKey": "hon_ngoc"
         },
         "filterConfig": {
           "autoClose": true
@@ -282,11 +280,9 @@
           "enableGallery": true,
           "defaultView": "gallery"
         },
-        "layoutConfig": {
-          "default": 4
-        },
+        "layoutConfig": {},
         "galleryConfig": {
-          "type": "normal"
+          "dataKey": "sach_my_nhan"
         },
         "filterConfig": {
           "autoClose": true
@@ -303,11 +299,9 @@
           "enableGallery": true,
           "defaultView": "gallery"
         },
-        "layoutConfig": {
-          "default": 4
-        },
+        "layoutConfig": {},
         "galleryConfig": {
-          "type": "normal"
+          "dataKey": "than_thu"
         },
         "filterConfig": {
           "autoClose": true
@@ -324,11 +318,9 @@
           "enableGallery": true,
           "defaultView": "gallery"
         },
-        "layoutConfig": {
-          "default": 4
-        },
+        "layoutConfig": {},
         "galleryConfig": {
-          "type": "normal"
+          "dataKey": "quan_ky"
         },
         "filterConfig": {
           "autoClose": true
@@ -345,11 +337,10 @@
           "enableGallery": true,
           "defaultView": "gallery"
         },
-        "layoutConfig": {
-          "default": 4
-        },
+        "layoutConfig": {},
         "galleryConfig": {
-          "type": "grouped_section"
+          "type": "grouped_section",
+          "dataKey": "other"
         },
         "filterConfig": {
           "autoClose": true
