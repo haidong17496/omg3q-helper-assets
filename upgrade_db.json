@@ -1,6 +1,6 @@
 {
   "info": {
-    "generated_at": "2026-01-30T14:54:20.452Z",
+    "generated_at": "2026-01-30T15:15:08.665Z",
     "total_rows": 1955
   },
   "master_data": {
@@ -167,7 +167,9 @@
           "enableMatrix": true,
           "enableGallery": true,
           "defaultView": "matrix",
-          "useStarLabel": true
+          "useStarLabel": [
+            "tien_cap"
+          ]
         },
         "layoutConfig": {
           "default": 4,
@@ -220,7 +222,10 @@
         "viewConfig": {
           "enableMatrix": true,
           "enableGallery": true,
-          "defaultView": "matrix"
+          "defaultView": "matrix",
+          "useStarLabel": [
+            "tien_cap"
+          ]
         },
         "layoutConfig": {
           "default": 4
