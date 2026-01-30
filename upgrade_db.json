@@ -1,6 +1,6 @@
 {
   "info": {
-    "generated_at": "2026-01-30T06:32:18.418Z",
+    "generated_at": "2026-01-30T08:42:50.168Z",
     "total_rows": 1955
   },
   "master_data": {
@@ -15,7 +15,9 @@
         "viewConfig": {
           "enableMatrix": true,
           "enableGallery": true,
-          "defaultView": "matrix"
+          "defaultView": "matrix",
+          "isSpecialTier": false,
+          "useStarLabel": false
         },
         "layoutConfig": {
           "default": 6,
@@ -27,8 +29,36 @@
           "tu_kim": 4
         },
         "galleryConfig": {
-          "type": "grouped_country",
-          "dataKey": "tuong"
+          "processorType": "hybrid",
+          "dataKey": "tuong",
+          "folder": "tuong",
+          "groups": [
+            {
+              "code": "thien_phu",
+              "name": "THIÊN PHÚ",
+              "color": "#FFD700"
+            },
+            {
+              "code": "nguy",
+              "name": "NGỤY QUỐC",
+              "color": "#409EFF"
+            },
+            {
+              "code": "thuc",
+              "name": "THỤC QUỐC",
+              "color": "#67C23A"
+            },
+            {
+              "code": "ngo",
+              "name": "NGÔ QUỐC",
+              "color": "#F56C6C"
+            },
+            {
+              "code": "quan",
+              "name": "QUẦN HÙNG",
+              "color": "#909399"
+            }
+          ]
         },
         "filterConfig": {
           "autoClose": false
@@ -50,6 +80,7 @@
           "kim": 5
         },
         "galleryConfig": {
+          "processorType": "talent",
           "dataKey": "thien_phu_trang_bi"
         },
         "filterConfig": {
@@ -71,6 +102,7 @@
           "default": 4
         },
         "galleryConfig": {
+          "processorType": "talent",
           "dataKey": "thien_phu_trang_suc"
         },
         "filterConfig": {
@@ -92,6 +124,7 @@
           "default": 4
         },
         "galleryConfig": {
+          "processorType": "talent",
           "dataKey": "thien_phu_bao_vat"
         },
         "filterConfig": {
@@ -107,13 +140,15 @@
         "viewConfig": {
           "enableMatrix": true,
           "enableGallery": true,
-          "defaultView": "matrix"
+          "defaultView": "matrix",
+          "useStarLabel": true
         },
         "layoutConfig": {
           "default": 4,
           "tien_cap": 3
         },
         "galleryConfig": {
+          "processorType": "talent",
           "dataKey": "thien_phu_pet"
         },
         "filterConfig": {
@@ -135,6 +170,7 @@
           "default": 4
         },
         "galleryConfig": {
+          "processorType": "talent",
           "dataKey": "thien_phu_than_binh"
         },
         "filterConfig": {
@@ -161,6 +197,7 @@
           "default": 4
         },
         "galleryConfig": {
+          "processorType": "talent",
           "dataKey": "cam_nang"
         },
         "filterConfig": {
@@ -176,13 +213,23 @@
         "viewConfig": {
           "enableMatrix": true,
           "enableGallery": true,
-          "defaultView": "matrix"
+          "defaultView": "matrix",
+          "isSpecialTier": true,
+          "useStarLabel": true,
+          "maxLabel": "GHÉP",
+          "tierLabels": [
+            "BINH PHÙ KIM",
+            "BINH PHÙ ÁM KIM",
+            "BINH PHÙ TỬ KIM"
+          ]
         },
         "layoutConfig": {
           "default": 6
         },
         "galleryConfig": {
-          "dataKey": "binh_phu"
+          "processorType": "normal",
+          "dataKey": "binh_phu",
+          "folder": "binh_phu"
         },
         "filterConfig": {
           "autoClose": true
@@ -197,13 +244,23 @@
         "viewConfig": {
           "enableMatrix": true,
           "enableGallery": true,
-          "defaultView": "matrix"
+          "defaultView": "matrix",
+          "isSpecialTier": true,
+          "useStarLabel": true,
+          "maxLabel": "GHÉP",
+          "tierLabels": [
+            "BINH THƯ KIM",
+            "BINH THƯ ÁM KIM",
+            "BINH THƯ TỬ KIM"
+          ]
         },
         "layoutConfig": {
           "default": 4
         },
         "galleryConfig": {
-          "dataKey": "binh_thu"
+          "processorType": "normal",
+          "dataKey": "binh_thu",
+          "folder": "binh_thu"
         },
         "filterConfig": {
           "autoClose": true
@@ -220,10 +277,13 @@
           "enableGallery": true,
           "defaultView": "gallery"
         },
-        "layoutConfig": {},
+        "layoutConfig": {
+          "default": 4
+        },
         "galleryConfig": {
-          "type": "html_viewer",
-          "dataKey": "costume"
+          "processorType": "html_viewer",
+          "dataKey": "costume",
+          "folder": "skin"
         },
         "filterConfig": {
           "autoClose": true
@@ -238,13 +298,22 @@
         "viewConfig": {
           "enableMatrix": true,
           "enableGallery": true,
-          "defaultView": "gallery"
+          "defaultView": "gallery",
+          "isSpecialTier": true,
+          "maxLabel": "GHÉP",
+          "tierLabels": [
+            "HỒN THẠCH TÍM",
+            "HỒN THẠCH CAM",
+            "HỒN THẠCH ĐỎ"
+          ]
         },
         "layoutConfig": {
           "default": 5
         },
         "galleryConfig": {
-          "dataKey": "hon_thach"
+          "processorType": "normal",
+          "dataKey": "hon_thach",
+          "folder": "hon_thach"
         },
         "filterConfig": {
           "autoClose": true
@@ -261,9 +330,13 @@
           "enableGallery": true,
           "defaultView": "gallery"
         },
-        "layoutConfig": {},
+        "layoutConfig": {
+          "default": 4
+        },
         "galleryConfig": {
-          "dataKey": "hon_ngoc"
+          "processorType": "normal",
+          "dataKey": "hon_ngoc",
+          "folder": "hon_ngoc"
         },
         "filterConfig": {
           "autoClose": true
@@ -280,9 +353,13 @@
           "enableGallery": true,
           "defaultView": "gallery"
         },
-        "layoutConfig": {},
+        "layoutConfig": {
+          "default": 4
+        },
         "galleryConfig": {
-          "dataKey": "sach_my_nhan"
+          "processorType": "normal",
+          "dataKey": "sach_my_nhan",
+          "folder": "smn"
         },
         "filterConfig": {
           "autoClose": true
@@ -299,9 +376,13 @@
           "enableGallery": true,
           "defaultView": "gallery"
         },
-        "layoutConfig": {},
+        "layoutConfig": {
+          "default": 4
+        },
         "galleryConfig": {
-          "dataKey": "than_thu"
+          "processorType": "normal",
+          "dataKey": "than_thu",
+          "folder": "than_thu"
         },
         "filterConfig": {
           "autoClose": true
@@ -318,9 +399,13 @@
           "enableGallery": true,
           "defaultView": "gallery"
         },
-        "layoutConfig": {},
+        "layoutConfig": {
+          "default": 4
+        },
         "galleryConfig": {
-          "dataKey": "quan_ky"
+          "processorType": "normal",
+          "dataKey": "quan_ky",
+          "folder": "quan_ky"
         },
         "filterConfig": {
           "autoClose": true
@@ -337,10 +422,13 @@
           "enableGallery": true,
           "defaultView": "gallery"
         },
-        "layoutConfig": {},
+        "layoutConfig": {
+          "default": 4
+        },
         "galleryConfig": {
-          "type": "grouped_section",
-          "dataKey": "other"
+          "processorType": "grouped_section",
+          "dataKey": "other",
+          "folder": "others"
         },
         "filterConfig": {
           "autoClose": true
@@ -352,98 +440,98 @@
         "id": 1,
         "code": "common",
         "name": "Dùng Chung",
-        "color": "#FFFFFF",
+        "color_code": "#FFFFFF",
         "is_hero": 0
       },
       {
         "id": 2,
         "code": "tc10",
         "name": "TC 10",
-        "color": "#A1A1A1",
+        "color_code": "#A1A1A1",
         "is_hero": 1
       },
       {
         "id": 3,
         "code": "hiem",
         "name": "Hiếm",
-        "color": "#66BB6A",
+        "color_code": "#66BB6A",
         "is_hero": 1
       },
       {
         "id": 4,
         "code": "hot",
         "name": "Hot",
-        "color": "#FF7043",
+        "color_code": "#FF7043",
         "is_hero": 1
       },
       {
         "id": 5,
         "code": "do",
         "name": "Đỏ",
-        "color": "#FF4B2B",
+        "color_code": "#FF4B2B",
         "is_hero": 1
       },
       {
         "id": 6,
         "code": "danh_tuong",
         "name": "Danh Tướng",
-        "color": "#FFD700",
+        "color_code": "#FFD700",
         "is_hero": 1
       },
       {
         "id": 7,
         "code": "tim",
         "name": "Tím",
-        "color": "#E066FF",
+        "color_code": "#E066FF",
         "is_hero": 0
       },
       {
         "id": 8,
         "code": "cam",
         "name": "Cam",
-        "color": "#FF7043",
+        "color_code": "#FF7043",
         "is_hero": 0
       },
       {
         "id": 10,
         "code": "kim",
         "name": "Kim",
-        "color": "#f5ee1d",
+        "color_code": "#f5ee1d",
         "is_hero": 0
       },
       {
         "id": 11,
         "code": "am_kim",
         "name": "Ám Kim",
-        "color": "#cd8f67",
+        "color_code": "#cd8f67",
         "is_hero": 0
       },
       {
         "id": 12,
         "code": "tu_kim",
         "name": "Tử Kim",
-        "color": "#d693c1",
+        "color_code": "#d693c1",
         "is_hero": 0
       },
       {
         "id": 13,
         "code": "thai_kim",
         "name": "Thái Kim",
-        "color": "#fcda76",
+        "color_code": "#fcda76",
         "is_hero": 0
       },
       {
         "id": 14,
         "code": "ban_kim",
         "name": "Bàn Kim",
-        "color": "#ccd7cd",
+        "color_code": "#ccd7cd",
         "is_hero": 0
       },
       {
         "id": 15,
         "code": "luu_kim",
         "name": "Lưu Kim",
-        "color": "#ffef6b",
+        "color_code": "#ffef6b",
         "is_hero": 0
       }
     ],
