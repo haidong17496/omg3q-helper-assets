@@ -8,5 +8,23 @@
   "app_config": {
     "default_ext": "webp",
     "maintenance": false
+  },
+  "progression_paths": {
+    "general": [
+      "tien_cap@cam", "dot_pha_cam@cam", "tien_cap@do", "dot_pha_do@do", "chan@do", 
+      "kim@common", "am_kim@common", "tu_kim@common", "thai_kim@common", "ban_kim@common", "luu_kim@common"
+    ],
+    "god_weapon": [
+      "tien_cap@cam", "dot_pha_do@cam", "tien_cap@do", 
+      "kim@common", "am_kim@common", "tu_kim@common", "thai_kim@common", "ban_kim@common", "luu_kim@common"
+    ],
+    "pet": [
+      "tien_cap@cam", "dot_pha_cam@cam", "tien_cap@do", "dot_pha_do@do", 
+      "kim@hot", "am_kim@hot", "tu_kim@hot", "thai_kim@common", "ban_kim@common", "luu_kim@common"
+    ],
+    "default_gear": [
+      "tien_cap@do", 
+      "kim@common", "am_kim@common", "tu_kim@common", "thai_kim@common", "ban_kim@common", "luu_kim@common"
+    ]
   }
 }
