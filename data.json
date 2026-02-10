@@ -1376,6 +1376,7 @@
     
     { "slug": "tay_hon_thach", "icon_slug": "tay_icon", "name": "Hồn Thạch", "quality": "common", "section": "TẨY HỒN" },
     { "slug": "tay_hon_ngoc", "icon_slug": "tay_icon", "name": "Hồn Ngọc", "quality": "common", "section": "TẨY HỒN" },
+    { "slug": "tay_qs", "icon_slug": "tay_icon", "name": "Quân Sư", "quality": "common", "section": "TẨY QUÂN SƯ" },
     
     { "slug": "tay_tuong_1", "icon_slug": "tay_icon", "name": "Bậc 1", "quality": "common", "section": "TẨY TƯỚNG" },
     { "slug": "tay_tuong_2", "icon_slug": "tay_icon", "name": "Bậc 2", "quality": "common", "section": "TẨY TƯỚNG" },
